@@ -1,0 +1,42 @@
+[
+    {
+        "title": "What is IndexedDB",
+        "url": "https://www.tiktok.com/@jsmentoring/photo/7448276165661314336",
+        "level": "junior"
+    },
+    {
+        "title": "What are the options in a cookie",
+        "url": "https://www.tiktok.com/@jsmentoring/photo/7448261980567145761",
+        "level": "junior"
+    },
+    {
+        "title": "Differences between cookie, local storage and session storage",
+        "url": "https://www.tiktok.com/@jsmentoring/photo/7448258461030173985",
+        "level": "junior"
+    },
+    {
+        "title": "How do you delete a cookie",
+        "url": "https://www.tiktok.com/@jsmentoring/photo/7448236859966197025",
+        "level": "middle"
+    },
+    {
+        "title": "What is a post message",
+        "url": "https://www.tiktok.com/@jsmentoring/photo/7448205399074934049",
+        "level": "middle"
+    },
+    {
+        "title": "What are closures",
+        "url": "https://www.tiktok.com/@jsmentoring/photo/7447942704148811041",
+        "level": "middle"
+    },
+    {
+        "title": "What are modules",
+        "url": "https://www.tiktok.com/@jsmentoring/photo/7447936859029654816",
+        "level": "middle"
+    },
+    {
+        "title": "What are classes in ES6",
+        "url": "https://www.tiktok.com/@jsmentoring/photo/7447909741977685280",
+        "level": "senior"
+    }
+]

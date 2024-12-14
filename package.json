@@ -1,0 +1,45 @@
+{
+  "name": "interview-questions",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fix2015/interview-questions.git"
+  },
+  "bin": {
+    "interview-questions": "cli.js"
+  },
+  "keywords": [
+    "interview",
+    "questions",
+    "filter",
+    "difficulty-level",
+    "question-generator",
+    "junior",
+    "middle",
+    "senior",
+    "top-questions",
+    "json",
+    "array",
+    "text",
+    "cli",
+    "command-line-tool",
+    "nodejs",
+    "javascript",
+    "random-selection",
+    "question-bank"
+  ],
+  "author": "Semianchuk Vitalii",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fix2015/interview-questions/issues"
+  },
+  "homepage": "https://github.com/fix2015/interview-questions#readme",
+  "description": "A CLI tool for generating interview questions by difficulty level and quantity, with support for multiple output formats including text, JSON, and arrays.",
+  "dependencies": {
+    "get-them-args": "^1.3.2"
+  }
+}
