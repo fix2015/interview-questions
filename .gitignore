@@ -1,0 +1,36 @@
+# Node.js
+node_modules/
+npm-debug.log
+yarn-debug.log
+yarn-error.log
+
+# Logs
+logs/
+*.log
+*.log.*
+
+# Dependency directories
+jspm_packages/
+
+# Build directories
+build/
+
+# Webpack
+/.webpack/
+
+# SCSS and Sass files
+*.css.map
+*.scssc
+
+# IDEs and Editors
+.vscode/
+.idea/
+*.sublime-workspace
+
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# Package-lock.json or Yarn lock file
+package-lock.json
+yarn.lock
