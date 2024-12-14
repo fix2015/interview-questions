@@ -18,7 +18,7 @@ Welcome to the **Interview Questions CLI**, a powerful tool designed for users l
 Run the CLI using the following command:
 
 ```bash
-node cli.js [options]
+npx interview-questions [options]
 ```
 
 ### Options
@@ -29,7 +29,6 @@ node cli.js [options]
 | `--amount`      | Number of questions to retrieve (for `top` filter).           | `--amount 5`                           |
 | `--level`       | Filter by difficulty level (`junior`, `middle`, `senior`).    | `--level junior`                       |
 | `--format`      | Output format (`text`, `array`, `json`). Default is `text`.   | `--format json`                        |
-| `--verbose`     | Enable verbose logging for debugging.                         | `--verbose`                            |
 
 ### Examples
 

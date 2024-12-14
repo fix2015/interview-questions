@@ -38,5 +38,145 @@
         "title": "What are classes in ES6",
         "url": "https://www.tiktok.com/@jsmentoring/photo/7447909741977685280",
         "level": "senior"
+    },
+    {
+        "title": "Why do you need modules",
+        "url": "https://www.tiktok.com/@jsmentoring/photo/7447895686626020640",
+        "level": "middle"
+    },
+    {
+        "title": "What is Hoisting",
+        "url": "https://www.tiktok.com/@jsmentoring/photo/7447882385946938656",
+        "level": "junior"
+    },
+    {
+        "title": "What is scope in javascript",
+        "url": "https://www.tiktok.com/@jsmentoring/photo/7447877473280265505",
+        "level": "junior"
+    },
+    {
+        "title": "What is a service worker",
+        "url": "https://www.tiktok.com/@jsmentoring/photo/7447871707219594529",
+        "level": "senior"
+    },
+    {
+        "title": "How do you manipulate with DOM element",
+        "url": "https://www.tiktok.com/@jsmentoring/photo/7447865971974475041",
+        "level": "junior"
+    },
+    {
+        "title": "How do you reuse information across service worker restarts",
+        "url": "https://www.tiktok.com/@jsmentoring/photo/7447841580880350497",
+        "level": "senior"
+    },
+    {
+        "title": "What is IndexedDB",
+        "url": "https://www.tiktok.com/@jsmentoring/photo/7447814335323278624",
+        "level": "senior"
+    },
+    {
+        "title": "What is memoization",
+        "url": "https://www.tiktok.com/@jsmentoring/photo/7447658154155871520",
+        "level": "middle"
+    },
+    {
+        "title": "What is JSON and Its Common Operations",
+        "url": "https://www.tiktok.com/@jsmentoring/photo/7447560275856870688",
+        "level": "junior"
+    },
+    {
+        "title": "5 Ways to Create Objects in JavaScript",
+        "url": "https://www.tiktok.com/@jsmentoring/photo/7447557117344582944",
+        "level": "junior"
+    },
+    {
+        "title": "What is a Prototype Chain in JavaScript?",
+        "url": "https://www.tiktok.com/@jsmentoring/photo/7447534074211601697",
+        "level": "junior"
+    },
+    {
+        "title": "What is a higher order function",
+        "url": "https://www.tiktok.com/@jsmentoring/photo/7447469800642727200",
+        "level": "middle"
+    },
+    {
+        "title": "What is the currying function",
+        "url": "https://www.tiktok.com/@jsmentoring/photo/7447172210076208417",
+        "level": "senior"
+    },
+    {
+        "title": "How do you compare Object and Map",
+        "url": "https://www.tiktok.com/@jsmentoring/photo/7447122335863147808",
+        "level": "senior"
+    },
+    {
+        "title": "What is a pure function",
+        "url": "https://www.tiktok.com/@jsmentoring/photo/7447104096424725792",
+        "level": "senior"
+    },
+    {
+        "title": "What is a Prototype Chain in JavaScript?",
+        "url": "https://www.tiktok.com/@jsmentoring/photo/7446735468848270625",
+        "level": "junior"
+    },
+    {
+        "title": "What is the purpose of the let keyword",
+        "url": "https://www.tiktok.com/@jsmentoring/photo/7446499450626772256",
+        "level": "junior"
+    },
+    {
+        "title": "Arrow func?",
+        "url": "https://www.tiktok.com/@jsmentoring/photo/7446420047448247585",
+        "level": "junior"
+    },
+    {
+        "title": "What is the difference between let and var",
+        "url": "https://www.tiktok.com/@jsmentoring/photo/7446417854699687200",
+        "level": "junior"
+    },
+    {
+        "title": "What is git bisect command?",
+        "url": "https://www.tiktok.com/@jsmentoring/photo/7446337497484791073",
+        "level": "senior"
+    },
+    {
+        "title": "What are lambda expressions or arrow functions?",
+        "url": "https://www.tiktok.com/@jsmentoring/photo/7446080608989678880",
+        "level": "junior"
+    },
+    {
+        "title": "What is the difference between == and === operators?",
+        "url": "https://www.tiktok.com/@jsmentoring/photo/7446055928723508512",
+        "level": "junior"
+    },
+    {
+        "title": "Slide What is the purpose of the array splice method",
+        "url": "https://www.tiktok.com/@jsmentoring/photo/7446035575565520160",
+        "level": "junior"
+    },
+    {
+        "title": "What is the difference between slice and splice",
+        "url": "https://www.tiktok.com/@jsmentoring/photo/7446029933446565152",
+        "level": "junior"
+    },
+    {
+        "title": "5 Ways to Create Objects in JavaScript?",
+        "url": "https://www.tiktok.com/@jsmentoring/photo/7445448146685136161",
+        "level": "junior"
+    },
+    {
+        "title": "What is git rebase command?",
+        "url": "https://www.tiktok.com/@jsmentoring/photo/7444874869394771232",
+        "level": "junior"
+    },
+    {
+        "title": "What is git reflog command?",
+        "url": "https://www.tiktok.com/@jsmentoring/photo/7444873101717884192",
+        "level": "junior"
+    },
+    {
+        "title": "What is git revert command?",
+        "url": "https://www.tiktok.com/@jsmentoring/photo/7444867368431439136",
+        "level": "junior"
     }
 ]
