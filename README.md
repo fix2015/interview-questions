@@ -1,3 +1,5 @@
+![alt text](image.png)
+
 # Interview Questions CLI
 
 Welcome to the **Interview Questions CLI**, a powerful tool designed for users learning JavaScript and practicing coding every day. This repository provides a collection of interview questions categorized by difficulty level, allowing you to learn and improve your skills anytime, directly from your terminal.
