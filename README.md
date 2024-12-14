@@ -56,18 +56,25 @@ node cli.js [options]
 
 - Retrieve all questions:
   ```bash
-  node cli.js --filter all
+  npx interview-questions --filter all
   ```
 
 - Get the top 5 junior-level questions in JSON format:
   ```bash
-  node cli.js --filter top --amount 5 --level junior --format json
+  npx interview-questions --filter --top 5 --level junior --format json
   ```
 
-- Use verbose mode to debug:
+- Get all questions:
   ```bash
-  node cli.js --verbose
+  npx interview-questions
   ```
+
+![alt text](image-1.png)
+
+```bash
+  npx interview-questions --filter --top 5 --level junior
+  ```
+![alt text](image-2.png)
 
 ## Who is this for?
 

@@ -32,7 +32,7 @@ const displayQuestions = (result, format) => {
       result.forEach(({ title, url }) => {
         console.log('');
         logHeader(`Question: ${title}`);
-        console.info(`Visit: ${url}`);
+        console.info(`Answer: ${url}`);
         logDivider();
       });
   }
