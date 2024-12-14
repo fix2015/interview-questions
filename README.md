@@ -13,27 +13,6 @@ Welcome to the **Interview Questions CLI**, a powerful tool designed for users l
   - `array` or `json` for use in your projects or further study.
 - **Randomized Selection**: Practice with random questions to simulate real-world scenarios.
 
-## Installation
-
-Ensure you have [Node.js](https://nodejs.org/) installed on your machine.
-
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/fix2015/interview-questions.git
-   ```
-2. Navigate to the project directory:
-   ```bash
-   cd interview-questions-cli
-   ```
-3. Install dependencies:
-   ```bash
-   npm install
-   ```
-4. Make the CLI globally accessible (optional):
-   ```bash
-   npm link
-   ```
-
 ## Usage
 
 Run the CLI using the following command:
