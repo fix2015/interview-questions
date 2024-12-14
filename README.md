@@ -1,4 +1,4 @@
-![alt text](image.png)
+![alt text](https://github.com/fix2015/interview-questions/blob/main/image.png)
 
 # Interview Questions CLI
 
@@ -47,12 +47,12 @@ npx interview-questions [options]
   npx interview-questions
   ```
 
-![alt text](image-1.png)
+![alt text](https://github.com/fix2015/interview-questions/blob/main/image-1.png)
 
 ```bash
   npx interview-questions --filter --top 5 --level junior
   ```
-![alt text](image-2.png)
+![alt text](https://github.com/fix2015/interview-questions/blob/main/image-2.png)
 
 ## Who is this for?
 
