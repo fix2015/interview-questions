@@ -37,7 +37,7 @@ class InterviewQuestion {
    * @returns {Promise<Array>} The filtered list of questions.
    * @throws {Error} If an invalid level or filter type is provided.
    */
-  async execute(filter = 'all', amount = 0, level = null) {
+  async execute(filter = 'all', amount = 0, level = null, theme = null) {
     let filteredData = this.data;
 
     // Filter by level if provided
@@ -47,6 +47,11 @@ class InterviewQuestion {
         throw new Error(`Invalid level: ${level}. Valid levels are: ${validLevels.join(', ')}`);
       }
       filteredData = filteredData.filter(item => item.level === level);
+    }
+
+    // Filter by level if provided
+    if (theme) {
+      filteredData = filteredData.filter(item => item.theme.split(',').map((data) => data.trim().toLowerCase()).includes(theme));
     }
 
     switch (filter) {
@@ -89,6 +94,6 @@ class InterviewQuestion {
  */
 module.exports = async function (options = {}) {
   const interviewQuestion = new InterviewQuestion(options);
-  const { filter = 'all', amount = 0, level = null } = options;
-  return interviewQuestion.execute(filter, amount, level);
+  const { filter = 'all', amount = 0, level = null, theme = null } = options;
+  return interviewQuestion.execute(filter, amount, level, theme);
 };

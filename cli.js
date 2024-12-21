@@ -10,13 +10,15 @@ const filter = args.top ? 'top' : args.filter || 'all';
 const amount = args.top || '';
 const level = args.level || '';
 const format = args.format || 'text';
+const theme = args.theme || '';
 
 const logHeader = (header) => console.log('\x1b[32m%s\x1b[0m', header);
 const logDivider = () => console.log('_________________________');
 const logExampleParams = () => {
   console.log("\x1b[32m%s\x1b[0m", "Params example:");
   console.log("--top ${amount}");
-  console.log("--level ( junior | middle | senior )");
+  console.log("--level ( basic | intermediate | advanced )");
+  console.log("--theme  ( closures | storage | es6 | classes | database ... and other 203 themes)");
   console.log("--format ( text | array | json )");
 };
 
@@ -29,10 +31,15 @@ const displayQuestions = (result, format) => {
       console.log(result);
       break;
     default:
-      result.forEach(({ title, url }) => {
+      result.forEach(({ title, url, text, theme }) => {
         console.log('');
         logHeader(`Question: ${title}`);
-        console.info(`Answer: \x1b]8;;${url}\x1b\\${url}\x1b]8;;\x1b\\`);
+        if (url) {
+          console.info(`Answer: \x1b]8;;${url}\x1b\\${url}\x1b]8;;\x1b\\`);
+        } else {
+          console.info(`Answer: ${text}`);
+        }
+        console.info(`Hash: ${theme.split(',').map((data) => ` #${data.trim().toLowerCase()}`)}`);
         logDivider();
       });
   }
@@ -46,10 +53,11 @@ const main = async () => {
     if (filter) console.log('Filter -', filter);
     console.log('');
 
-    const result = await interviewQuestion({ filter, amount, level, format });
+    const result = await interviewQuestion({ filter, amount, level, format, theme });
     displayQuestions(result, format);
 
     console.log('');
+    console.log(`Found ${result.length} questions`);
     logExampleParams();
 
     if (verbose) console.log('Send questions');
