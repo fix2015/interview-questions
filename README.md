@@ -1,6 +1,6 @@
 ![alt text](https://github.com/fix2015/interview-questions/blob/main/image.png)
 
-# Interview Questions CLI (466 questions)
+# Interview Questions CLI (592 questions)
 
 Welcome to the **Interview Questions CLI**, a powerful tool designed for users learning JavaScript and practicing coding every day. This repository provides a collection of interview questions categorized by difficulty level, allowing you to learn and improve your skills anytime, directly from your terminal.
 
