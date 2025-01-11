@@ -27,10 +27,10 @@ npx interview-questions [options]
 |-----------------|---------------------------------------------------------------    |----------------------------------------|
 | `--filter`      | Filter questions by type (`all`, `top`). Default is `all`.        | `--filter top`                         |
 | `--amount`      | Number of questions to retrieve (for `top` filter).               | `--amount 5`                           |
-| `--level`       | Filter by difficulty level (`basic`, `intermediate`, `advanced`). | `--level basic`                       |
-| `--theme`       | Filter by difficulty level 
-                      ( closures | storage | es6 | classes | 
-                      database ... and other 203 themes).                             | `--theme es6`                       |
+| `--level`       | Filter by difficulty level (`basic`, `intermediate`, `advanced`). | `--level basic`                        |
+| `--theme`       | Filter by difficulty level                                        | `--theme es6`                          |
+|                 |    ( closures , storage , es6 , classes                           |                                        |
+|                 |    database ... and other 203 themes).                            |                                        |
 | `--format`      | Output format (`text`, `array`, `json`). Default is `text`.       | `--format json`                        |
 
 ### Examples
