@@ -18,7 +18,7 @@ const logExampleParams = () => {
   console.log("\x1b[32m%s\x1b[0m", "Params example:");
   console.log("--top ${amount}");
   console.log("--level ( basic | intermediate | advanced )");
-  console.log("--theme  ( closures | storage | es6 | classes | database ... and other 203 themes)");
+  console.log("--theme  ( algorithm, closures | storage | es6 | classes | database ... and other 203 themes)");
   console.log("--format ( text | array | json )");
 };
 

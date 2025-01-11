@@ -17,6 +17,7 @@ class InterviewQuestion {
     this.options = options;
     this.verbose = options.verbose || false;
     this.data = require(path.resolve(__dirname, 'question.json'));
+    console.log('data', this.data)
   }
 
   /**
