@@ -69,6 +69,8 @@ This repository is perfect for:
 - [LinkedIn - Vitalii Semianchuk](https://www.linkedin.com/in/vitalii-semianchuk-9812a786/)
 - [Telegram - @jsmentorfree](https://t.me/jsmentorfree) - We do a lot of free teaching on this channel! Join us to learn and grow in web development.
 - [Tiktok - @jsmentoring](https://www.tiktok.com/@jsmentoring) Everyday new videos
+- [Youtube - @jsmentor-uk](https://www.youtube.com/@jsmentor-uk) Mentor live streams
+- [Dev.to - fix2015](https://dev.to/fix2015) Javascript featured, live, experience
 
 ## License
 
