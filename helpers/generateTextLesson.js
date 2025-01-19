@@ -115,6 +115,11 @@ const videosLinks = videoQuestions
     .map(q => `- [${q.title}](${q.url})`)
     .join('\n');
 
+// Counts
+const levelsCount = uniqueLevels.size;
+const themesCount = uniqueThemes.size;
+const videosCount = videoQuestions.length;
+
 // Convert the array of objects to Markdown format
 const markdownContent = data.map(obj => {
     const titleWithLink = obj.link ? `[${obj.title}](${obj.link})` : obj.title;
@@ -133,13 +138,13 @@ const markdownContent = data.map(obj => {
 const readmeContent = `
 # javascript-questions-pro (${totalQuestions} questions)
 
-## [Levels](./level/) 
+## [Levels](./level/) (${levelsCount})
 ${levelsLinks}
 
-## [Themes](./theme/)  
+## [Themes](./theme/) (${themesCount})  
 ${themesLinks}
 
-## [Tutorials with Videos](./video/)
+## [Tutorials with Videos](./video/) (${videosCount})
 ${videosLinks}
 
 ## All questions
