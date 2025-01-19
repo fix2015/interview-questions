@@ -1,6 +1,6 @@
 const fs = require('fs');
 const path = require('path');
-const repo = '/Users/vitaliisemianchuk/Projects/javascript-questions-pro';
+const repo = '../../javascript-questions-pro';
 
 // Get the input file path from command-line arguments
 const inputFilePath = process.argv[2];
@@ -38,11 +38,23 @@ function writeToFile(folderPath, fileName, content) {
     fs.writeFileSync(filePath, content, 'utf8');
 }
 
+// Sanitize names to replace spaces and special characters with underscores and convert to lowercase
+function sanitizeName(name) {
+    return name.replace(/[^a-z0-9]+/gi, '_').toLowerCase();
+}
+
 // Generate Markdown content for a question
 function generateMarkdown(obj) {
     const titleWithLink = obj.link ? `[${obj.title}](${obj.link})` : obj.title;
-    const tags = obj.level && obj.theme ? `**Tags**: ${obj.level}, ${obj.theme}` : '';
+
+    // Create links for level and theme tags
+    const levelLink = obj.level ? `[${obj.level}](./level/${sanitizeName(obj.level)})` : '';
+    const themeLinks = obj.theme ? obj.theme.split(',').map(theme => `[${theme.trim()}](./theme/${sanitizeName(theme.trim())})`).join(', ') : '';
+    
+    const tags = (levelLink || themeLinks) ? `**Tags**: ${levelLink}${levelLink && themeLinks ? ', ' : ''}${themeLinks}` : '';
+    
     const url = obj.url ? `**URL**: [${obj.url}](${obj.url})` : '';
+    
     return `## ${titleWithLink}\n\n${obj.text}\n\n${tags}\n\n${url}\n`;
 }
 
@@ -53,10 +65,11 @@ clearFolder(levelsFolder);
 const uniqueLevels = new Set();
 data.forEach(obj => {
     if (obj.level) {
-        uniqueLevels.add(obj.level);
-        const levelFolderPath = path.join(levelsFolder, obj.level);
+        const sanitizedLevel = sanitizeName(obj.level);  // Ensure level is lowercase
+        uniqueLevels.add(sanitizedLevel);
+        const levelFolderPath = path.join(levelsFolder, sanitizedLevel);  // Ensure folder path is lowercase
         const content = generateMarkdown(obj);
-        writeToFile(levelFolderPath, `${obj.title.replace(/[^a-z0-9]+/gi, '_')}.md`, content);
+        writeToFile(levelFolderPath, `${sanitizeName(obj.title)}.md`, content);  // Ensure file name is lowercase
     }
 });
 
@@ -67,12 +80,12 @@ clearFolder(themesFolder);
 const uniqueThemes = new Set();
 data.forEach(obj => {
     if (obj.theme) {
-        const themes = obj.theme.split(',').map(theme => theme.trim());
+        const themes = obj.theme.split(',').map(theme => sanitizeName(theme.trim()));  // Ensure theme is lowercase
         themes.forEach(theme => {
             uniqueThemes.add(theme);
-            const themeFolderPath = path.join(themesFolder, theme);
+            const themeFolderPath = path.join(themesFolder, theme);  // Ensure folder path is lowercase
             const content = generateMarkdown(obj);
-            writeToFile(themeFolderPath, `${obj.title.replace(/[^a-z0-9]+/gi, '_')}.md`, content);
+            writeToFile(themeFolderPath, `${sanitizeName(obj.title)}.md`, content);  // Ensure file name is lowercase
         });
     }
 });
@@ -86,17 +99,17 @@ data.forEach(obj => {
     if (obj.url && obj.url.includes('tiktok')) {
         videoQuestions.push(obj);
         const content = generateMarkdown(obj);
-        writeToFile(videoFolder, `${obj.title.replace(/[^a-z0-9]+/gi, '_')}.md`, content);
+        writeToFile(videoFolder, `${sanitizeName(obj.title)}.md`, content);  // Ensure file name is lowercase
     }
 });
 
 // Generate the README header
 const totalQuestions = data.length;
 const levelsLinks = Array.from(uniqueLevels)
-    .map(level => `- [${level}](./level/${level})`)
+    .map(level => `- [${level.replace(/_/g, ' ')}](./level/${level})`)
     .join('\n');
 const themesLinks = Array.from(uniqueThemes)
-    .map(theme => `- [${theme}](./theme/${theme})`)
+    .map(theme => `- [${theme.replace(/_/g, ' ')}](./theme/${theme})`)
     .join('\n');
 const videosLinks = videoQuestions
     .map(q => `- [${q.title}](${q.url})`)
@@ -105,9 +118,16 @@ const videosLinks = videoQuestions
 // Convert the array of objects to Markdown format
 const markdownContent = data.map(obj => {
     const titleWithLink = obj.link ? `[${obj.title}](${obj.link})` : obj.title;
-    const tags = obj.level && obj.theme ? `**Tags**: ${obj.level}, ${obj.theme}` : '';
+
+    // Create links for level and theme tags
+    const levelLink = obj.level ? `[${obj.level}](./level/${sanitizeName(obj.level)})` : '';
+    const themeLinks = obj.theme ? obj.theme.split(',').map(theme => `[${theme.trim()}](./theme/${sanitizeName(theme.trim())})`).join(', ') : '';
+    
+    const tags = (levelLink || themeLinks) ? `**Tags**: ${levelLink}${levelLink && themeLinks ? ', ' : ''}${themeLinks}` : '';
+    
     const url = obj.url ? `**URL**: [${obj.url}](${obj.url})` : '';
-    return `## ${titleWithLink}\n\n${obj.text}\n\n${tags}\n\n${url}\n`;
+    
+    return `${obj.text}\n\n${tags}\n\n${url}\n`;
 }).join('\n---\n\n');
 
 const readmeContent = `
