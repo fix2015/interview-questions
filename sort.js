@@ -1,6 +1,24 @@
+const fs = require('fs');
 const path = require('path');
 
-const data = require(path.resolve(__dirname, 'question.json'));
+// Get the input file path from command-line arguments
+const inputFilePath = process.argv[2];
+if (!inputFilePath) {
+    console.error('Please provide the path to the input JSON file as an argument.');
+    process.exit(1);
+}
+
+// Resolve the input file path
+const dataPath = path.resolve(__dirname, inputFilePath);
+
+// Read and parse the JSON file
+let data;
+try {
+    data = require(dataPath);
+} catch (err) {
+    console.error(`Failed to read or parse the file at ${dataPath}:`, err.message);
+    process.exit(1);
+}
 
 function sortAndFilterUniqueLinks(arr) {
     const seenLinks = new Set();
@@ -25,5 +43,13 @@ function sortAndFilterUniqueLinks(arr) {
 const old = data.filter(({link}) => !link);
 const newData = sortAndFilterUniqueLinks(data.filter(({link}) => link));
 const work = [...old, ...newData];
-
-console.log(JSON.stringify(work));
+console.log(work.length)
+return 
+// Save the work variable to the same file
+try {
+    fs.writeFileSync(dataPath, JSON.stringify(work, null, 2), 'utf8');
+    console.log(`Data has been saved to ${dataPath}`);
+} catch (err) {
+    console.error(`Failed to write to file at ${dataPath}:`, err.message);
+    process.exit(1);
+}
