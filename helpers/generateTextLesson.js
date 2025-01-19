@@ -49,8 +49,11 @@ function generateMarkdown(obj) {
 // Clear and recreate the level folder
 const levelsFolder = path.resolve(__dirname, `${repo}/level`);
 clearFolder(levelsFolder);
+
+const uniqueLevels = new Set();
 data.forEach(obj => {
     if (obj.level) {
+        uniqueLevels.add(obj.level);
         const levelFolderPath = path.join(levelsFolder, obj.level);
         const content = generateMarkdown(obj);
         writeToFile(levelFolderPath, `${obj.title.replace(/[^a-z0-9]+/gi, '_')}.md`, content);
@@ -60,10 +63,13 @@ data.forEach(obj => {
 // Clear and recreate the theme folder
 const themesFolder = path.resolve(__dirname, `${repo}/theme`);
 clearFolder(themesFolder);
+
+const uniqueThemes = new Set();
 data.forEach(obj => {
     if (obj.theme) {
         const themes = obj.theme.split(',').map(theme => theme.trim());
         themes.forEach(theme => {
+            uniqueThemes.add(theme);
             const themeFolderPath = path.join(themesFolder, theme);
             const content = generateMarkdown(obj);
             writeToFile(themeFolderPath, `${obj.title.replace(/[^a-z0-9]+/gi, '_')}.md`, content);
@@ -74,18 +80,58 @@ data.forEach(obj => {
 // Clear and recreate the video folder
 const videoFolder = path.resolve(__dirname, `${repo}/video`);
 clearFolder(videoFolder);
+
+const videoQuestions = [];
 data.forEach(obj => {
     if (obj.url && obj.url.includes('tiktok')) {
+        videoQuestions.push(obj);
         const content = generateMarkdown(obj);
         writeToFile(videoFolder, `${obj.title.replace(/[^a-z0-9]+/gi, '_')}.md`, content);
     }
 });
 
-// Save the Markdown content to a README.md file
-const outputFilePath = path.resolve(__dirname, './repo/README.md');
+// Generate the README header
+const totalQuestions = data.length;
+const levelsLinks = Array.from(uniqueLevels)
+    .map(level => `- [${level}](./level/${level})`)
+    .join('\n');
+const themesLinks = Array.from(uniqueThemes)
+    .map(theme => `- [${theme}](./theme/${theme})`)
+    .join('\n');
+const videosLinks = videoQuestions
+    .map(q => `- [${q.title}](${q.url})`)
+    .join('\n');
+
+// Convert the array of objects to Markdown format
+const markdownContent = data.map(obj => {
+    const titleWithLink = obj.link ? `[${obj.title}](${obj.link})` : obj.title;
+    const tags = obj.level && obj.theme ? `**Tags**: ${obj.level}, ${obj.theme}` : '';
+    const url = obj.url ? `**URL**: [${obj.url}](${obj.url})` : '';
+    return `## ${titleWithLink}\n\n${obj.text}\n\n${tags}\n\n${url}\n`;
+}).join('\n---\n\n');
+
+const readmeContent = `
+# javascript-questions-pro (${totalQuestions} questions)
+
+## [Levels](./level/) 
+${levelsLinks}
+
+## [Themes](./theme/)  
+${themesLinks}
+
+## [Tutorials with Videos](./video/)
+${videosLinks}
+
+## All questions
+${markdownContent}
+---
+`;
+
+// Write the README header and questions
+const outputFilePath = path.resolve(__dirname, `${repo}/README.md`);
 try {
-    fs.writeFileSync(outputFilePath, generateMarkdown, 'utf8');
-    console.log(`Markdown file has been saved to ${outputFilePath}`);
+    fs.writeFileSync(outputFilePath, readmeContent, 'utf8');
+    console.log(`README file has been saved to ${outputFilePath}`);
 } catch (err) {
     console.error(`Failed to write to file at ${outputFilePath}:`, err.message);
     process.exit(1);
