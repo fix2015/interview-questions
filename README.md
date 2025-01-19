@@ -65,6 +65,13 @@ This repository is perfect for:
 - **Job seekers**: Prepare for interviews by tackling real-world coding problems.
 - **Developers**: Quickly access a JSON or array of questions for use in projects or mock tests.
 
+## Generate repo folder
+
+```
+cd helpers
+node generateTextLesson.js ../question.json
+```
+
 ## Connect with Me:
 - [LinkedIn - Vitalii Semianchuk](https://www.linkedin.com/in/vitalii-semianchuk-9812a786/)
 - [Telegram - @jsmentorfree](https://t.me/jsmentorfree) - We do a lot of free teaching on this channel! Join us to learn and grow in web development.
