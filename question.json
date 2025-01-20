@@ -136,14 +136,6 @@
       "link": "#what-is-memoization"
     },
     {
-      "title": "5 Ways to Create Objects in JavaScript",
-      "url": "https://www.tiktok.com/@jsmentoring/photo/7447557117344582944",
-      "level": "basic",
-      "theme": "objects, creation, JavaScript",
-      "text": "### 5 Ways to Create Objects in JavaScript\n\nIn JavaScript, objects can be created in various ways. The five most common methods are:\n\n1. **Object Literal**: `const obj = {}`\n2. **Object Constructor**: `const obj = new Object()`\n3. **Object.create()**: `const obj = Object.create(null)`\n4. **Class Syntax**: `class MyClass { constructor() {} }`\n5. **Factory Functions**: `function createObject() { return {}}`",
-      "link": "#5-ways-to-create-objects-in-javascript"
-    },
-    {
       "title": "What is a Prototype Chain in JavaScript?",
       "url": "https://www.tiktok.com/@jsmentoring/photo/7447534074211601697",
       "level": "basic",
