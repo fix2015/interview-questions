@@ -1,5 +1,5 @@
 
-# javascript-questions-pro (590 questions)
+# javascript-questions-pro (619 questions)
 
 ## [Levels](./level/) (4)
 - [basic](./level/basic)
@@ -7,7 +7,7 @@
 - [advanced](./level/advanced)
 - [beginner](./level/beginner)
 
-## [Themes](./theme/) (211)  
+## [Themes](./theme/) (218)  
 - [indexeddb](./theme/indexeddb)
 - [db](./theme/db)
 - [storage](./theme/storage)
@@ -219,6 +219,13 @@
 - [headless testing](./theme/headless_testing)
 - [async await](./theme/async_await)
 - [express js](./theme/express_js)
+- [algorithms](./theme/algorithms)
+- [weakmap](./theme/weakmap)
+- [v8](./theme/v8)
+- [devtools](./theme/devtools)
+- [animation](./theme/animation)
+- [multithreading](./theme/multithreading)
+- [async](./theme/async)
 
 ## [Tutorials with Videos](./video/) (191)
 - [What is IndexedDB](https://www.tiktok.com/@jsmentoring/photo/7448276165661314336)
@@ -12681,6 +12688,296 @@ Promise.reject(new Error('Unhandled error'));
 ```
 
 **Tags**: [advanced](./level/advanced), [JavaScript](./theme/javascript), [Promises](./theme/promises), [Error Handling](./theme/error_handling)
+
+
+
+---
+
+### What is garbage collection?
+
+Garbage collection is an automatic memory management feature in JavaScript that frees memory occupied by objects no longer in use.
+
+**Tags**: [beginner](./level/beginner), [JavaScript](./theme/javascript), [Memory Management](./theme/memory_management)
+
+
+
+---
+
+### How does garbage collection work?
+
+Garbage collection in JavaScript is performed by the JavaScript engine, which identifies and removes objects that are no longer reachable from the root (e.g., global object or stack).
+
+**Tags**: [intermediate](./level/intermediate), [JavaScript](./theme/javascript), [Memory Management](./theme/memory_management), [Algorithms](./theme/algorithms)
+
+
+
+---
+
+### Types of garbage collection algorithms
+
+Common garbage collection algorithms include reference counting, mark-and-sweep, and generational garbage collection.
+
+**Tags**: [advanced](./level/advanced), [JavaScript](./theme/javascript), [Memory Management](./theme/memory_management), [Performance](./theme/performance)
+
+
+
+---
+
+### What is the mark-and-sweep algorithm?
+
+The mark-and-sweep algorithm identifies active objects (mark phase) and removes unreferenced objects (sweep phase), freeing up memory.
+
+**Tags**: [intermediate](./level/intermediate), [JavaScript](./theme/javascript), [Memory Management](./theme/memory_management)
+
+
+
+---
+
+### How to prevent memory leaks?
+
+Avoid circular references, remove event listeners, clear intervals, and use weak references where appropriate to prevent memory leaks.
+
+**Tags**: [advanced](./level/advanced), [JavaScript](./theme/javascript), [Performance](./theme/performance), [Optimization](./theme/optimization)
+
+
+
+---
+
+### What are weak references?
+
+Weak references, such as those used in `WeakMap` and `WeakSet`, allow garbage collection of objects when they are no longer reachable elsewhere.
+
+**Tags**: [advanced](./level/advanced), [JavaScript](./theme/javascript), [Memory Management](./theme/memory_management), [WeakMap](./theme/weakmap)
+
+
+
+---
+
+### Does JavaScript have manual garbage collection?
+
+No, JavaScript relies on automatic garbage collection managed by the engine, such as V8 in Chrome and Node.js.
+
+**Tags**: [beginner](./level/beginner), [JavaScript](./theme/javascript), [Memory Management](./theme/memory_management)
+
+
+
+---
+
+### How does garbage collection affect performance?
+
+Garbage collection can cause performance hiccups due to unpredictable pauses. Proper memory management can help minimize these interruptions.
+
+**Tags**: [intermediate](./level/intermediate), [JavaScript](./theme/javascript), [Performance](./theme/performance)
+
+
+
+---
+
+### Can you force garbage collection in JavaScript?
+
+In most cases, you cannot manually trigger garbage collection. However, in some environments like Node.js, you can use `global.gc()` if the `--expose-gc` flag is enabled.
+
+**Tags**: [advanced](./level/advanced), [JavaScript](./theme/javascript), [Memory Management](./theme/memory_management), [V8](./theme/v8)
+
+
+
+---
+
+### What tools can help detect memory leaks?
+
+Tools like Chrome DevTools, Node.js heap snapshots, and profiling tools can help identify memory leaks in JavaScript applications.
+
+**Tags**: [advanced](./level/advanced), [JavaScript](./theme/javascript), [Debugging](./theme/debugging), [Performance](./theme/performance)
+
+
+
+---
+
+### What is performance debugging?
+
+Performance debugging involves identifying and fixing bottlenecks in JavaScript code to improve execution speed and efficiency.
+
+**Tags**: [beginner](./level/beginner), [JavaScript](./theme/javascript), [Debugging](./theme/debugging), [Performance](./theme/performance)
+
+
+
+---
+
+### How to measure performance in JavaScript?
+
+Use tools like `console.time()`, `performance.now()`, and Chrome DevTools Performance tab to analyze execution time.
+
+**Tags**: [beginner](./level/beginner), [JavaScript](./theme/javascript), [Performance](./theme/performance), [Optimization](./theme/optimization)
+
+
+
+---
+
+### How to use Chrome DevTools for performance debugging?
+
+Use the Performance tab to record and analyze JavaScript execution, rendering, and paint times.
+
+**Tags**: [intermediate](./level/intermediate), [JavaScript](./theme/javascript), [Debugging](./theme/debugging), [DevTools](./theme/devtools)
+
+
+
+---
+
+### What causes memory leaks in JavaScript?
+
+Memory leaks occur due to circular references, forgotten timers, event listeners, and global variables.
+
+**Tags**: [intermediate](./level/intermediate), [JavaScript](./theme/javascript), [Memory Management](./theme/memory_management), [Debugging](./theme/debugging)
+
+
+
+---
+
+### How to detect memory leaks in JavaScript?
+
+Use Chrome DevTools' Memory tab to analyze heap snapshots and track memory usage over time.
+
+**Tags**: [advanced](./level/advanced), [JavaScript](./theme/javascript), [Debugging](./theme/debugging), [Performance](./theme/performance)
+
+
+
+---
+
+### How to fix memory leaks in JavaScript?
+
+Remove unused event listeners, clear timers, use weak references, and avoid global variable accumulation.
+
+**Tags**: [advanced](./level/advanced), [JavaScript](./theme/javascript), [Optimization](./theme/optimization), [Debugging](./theme/debugging)
+
+
+
+---
+
+### How to optimize DOM manipulation?
+
+Minimize reflows and repaints by batching updates, using document fragments, and avoiding direct style modifications.
+
+**Tags**: [intermediate](./level/intermediate), [JavaScript](./theme/javascript), [Performance](./theme/performance), [DOM](./theme/dom)
+
+
+
+---
+
+### Why is JavaScript single-threaded?
+
+JavaScript runs on a single thread to simplify concurrency, using the event loop and asynchronous callbacks to handle tasks.
+
+**Tags**: [beginner](./level/beginner), [JavaScript](./theme/javascript), [Event Loop](./theme/event_loop), [Performance](./theme/performance)
+
+
+
+---
+
+### How to use requestAnimationFrame() for performance?
+
+Use `requestAnimationFrame()` instead of `setTimeout()` for smoother animations synchronized with the browser's refresh rate.
+
+**Tags**: [intermediate](./level/intermediate), [JavaScript](./theme/javascript), [Animation](./theme/animation), [Optimization](./theme/optimization)
+
+
+
+---
+
+### How to debounce and throttle functions?
+
+Debouncing limits how often a function runs, while throttling ensures a function executes at a fixed interval to improve performance.
+
+**Tags**: [intermediate](./level/intermediate), [JavaScript](./theme/javascript), [Optimization](./theme/optimization), [Performance](./theme/performance)
+
+
+
+---
+
+### How to optimize loops in JavaScript?
+
+Use `forEach()` for readability, `for` loops for speed, and minimize redundant calculations inside loops.
+
+**Tags**: [intermediate](./level/intermediate), [JavaScript](./theme/javascript), [Performance](./theme/performance), [Optimization](./theme/optimization)
+
+
+
+---
+
+### How do Web Workers improve performance?
+
+Web Workers allow running scripts in background threads, offloading CPU-heavy tasks from the main thread.
+
+**Tags**: [advanced](./level/advanced), [JavaScript](./theme/javascript), [Multithreading](./theme/multithreading), [Performance](./theme/performance)
+
+
+
+---
+
+### How to optimize images for better performance?
+
+Use modern formats (WebP, AVIF), lazy loading, and responsive images to reduce load time.
+
+**Tags**: [beginner](./level/beginner), [JavaScript](./theme/javascript), [Optimization](./theme/optimization), [Performance](./theme/performance)
+
+
+
+---
+
+### What is the impact of event bubbling on performance?
+
+Excessive event listeners can slow down performance. Use event delegation to minimize listeners.
+
+**Tags**: [advanced](./level/advanced), [JavaScript](./theme/javascript), [Event Handling](./theme/event_handling), [Performance](./theme/performance)
+
+
+
+---
+
+### How to lazy load content in JavaScript?
+
+Use the Intersection Observer API to load images and components only when they enter the viewport.
+
+**Tags**: [intermediate](./level/intermediate), [JavaScript](./theme/javascript), [Performance](./theme/performance), [Optimization](./theme/optimization)
+
+
+
+---
+
+### How does the event loop affect performance?
+
+Blocking operations delay execution. Optimize async tasks and avoid long synchronous code.
+
+**Tags**: [advanced](./level/advanced), [JavaScript](./theme/javascript), [Async](./theme/async), [Performance](./theme/performance)
+
+
+
+---
+
+### How to reduce render-blocking resources?
+
+Defer JavaScript execution, use async scripts, and minimize CSS blocking resources.
+
+**Tags**: [advanced](./level/advanced), [JavaScript](./theme/javascript), [Performance](./theme/performance), [Optimization](./theme/optimization)
+
+
+
+---
+
+### How to use the Performance API?
+
+The Performance API provides precise timing data, including `performance.now()` and `performance.mark()` for measuring execution time.
+
+**Tags**: [advanced](./level/advanced), [JavaScript](./theme/javascript), [Performance](./theme/performance), [Debugging](./theme/debugging)
+
+
+
+---
+
+### What is the impact of long tasks on performance?
+
+Long tasks (>50ms) block the main thread, causing UI lag. Split tasks into smaller chunks with `setTimeout()` or `requestIdleCallback()`.
+
+**Tags**: [intermediate](./level/intermediate), [JavaScript](./theme/javascript), [Performance](./theme/performance), [Optimization](./theme/optimization)
 
 
 
