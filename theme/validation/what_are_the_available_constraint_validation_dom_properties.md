@@ -19,4 +19,4 @@ console.log(input.validity.rangeUnderflow); // true or false
 
 **Tags**: [intermediate](./level/intermediate), [JavaScript](./theme/javascript), [DOM](./theme/dom), [validation](./theme/validation)
 
-
+**URL**: [https://www.tiktok.com/@jsmentoring/photo/7464745553981672736](https://www.tiktok.com/@jsmentoring/photo/7464745553981672736)

@@ -16,4 +16,4 @@ tag`Hello, ${name}!`;  // Output: ['Hello, ', '!'] ['John']
 
 **Tags**: [advanced](./level/advanced), [JavaScript](./theme/javascript), [Strings](./theme/strings)
 
-
+**URL**: [https://www.tiktok.com/@jsmentoring/photo/7469507120082324768](https://www.tiktok.com/@jsmentoring/photo/7469507120082324768)

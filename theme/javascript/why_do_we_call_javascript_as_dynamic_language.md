@@ -13,4 +13,4 @@ dynamicVar = 'Hello';  // String
 
 **Tags**: [basic](./level/basic), [JavaScript](./theme/javascript), [Language features](./theme/language_features)
 
-
+**URL**: [https://www.tiktok.com/@jsmentoring/photo/7468752457196162337](https://www.tiktok.com/@jsmentoring/photo/7468752457196162337)

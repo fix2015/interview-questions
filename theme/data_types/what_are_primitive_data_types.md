@@ -22,4 +22,4 @@ const isActive = true; // boolean
 
 **Tags**: [basic](./level/basic), [JavaScript](./theme/javascript), [data types](./theme/data_types)
 
-
+**URL**: [https://www.tiktok.com/@jsmentoring/photo/7459714568466484513](https://www.tiktok.com/@jsmentoring/photo/7459714568466484513)

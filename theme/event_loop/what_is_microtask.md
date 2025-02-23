@@ -13,4 +13,4 @@ Promise.resolve().then(() => console.log('Microtask executed'));
 
 **Tags**: [advanced](./level/advanced), [JavaScript](./theme/javascript), [Event Loop](./theme/event_loop)
 
-
+**URL**: [https://www.tiktok.com/@jsmentoring/photo/7459906574425902368](https://www.tiktok.com/@jsmentoring/photo/7459906574425902368)

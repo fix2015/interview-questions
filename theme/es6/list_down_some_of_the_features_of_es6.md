@@ -18,4 +18,4 @@ console.log(first, second);  // Output: 1 2
 
 **Tags**: [intermediate](./level/intermediate), [JavaScript](./theme/javascript), [ES6](./theme/es6)
 
-
+**URL**: [https://www.tiktok.com/@jsmentoring/photo/7469439568199142689](https://www.tiktok.com/@jsmentoring/photo/7469439568199142689)

@@ -8,4 +8,4 @@ V8 optimizes JavaScript performance through techniques like Just-In-Time (JIT) c
 
 **Tags**: [intermediate](./level/intermediate), [JavaScript](./theme/javascript), [engines](./theme/engines)
 
-
+**URL**: [https://www.tiktok.com/@jsmentoring/photo/7468430768063122721](https://www.tiktok.com/@jsmentoring/photo/7468430768063122721)

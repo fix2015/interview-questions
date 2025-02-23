@@ -19,4 +19,4 @@ greet(42); // Error: Argument of type 'number' is not assignable to parameter of
 
 **Tags**: [basic](./level/basic), [TypeScript](./theme/typescript)
 
-
+**URL**: [https://www.tiktok.com/@jsmentoring/photo/7462837290327395617](https://www.tiktok.com/@jsmentoring/photo/7462837290327395617)

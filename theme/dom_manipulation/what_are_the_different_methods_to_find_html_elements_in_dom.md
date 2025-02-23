@@ -19,4 +19,4 @@ const elements = document.getElementsByClassName('myClass');
 
 **Tags**: [basic](./level/basic), [JavaScript](./theme/javascript), [DOM manipulation](./theme/dom_manipulation)
 
-
+**URL**: [https://www.tiktok.com/@jsmentoring/photo/7468425060965960993](https://www.tiktok.com/@jsmentoring/photo/7468425060965960993)

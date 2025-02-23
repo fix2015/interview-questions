@@ -6,4 +6,4 @@ Weak references, such as those used in `WeakMap` and `WeakSet`, allow garbage co
 
 **Tags**: [advanced](./level/advanced), [JavaScript](./theme/javascript), [Memory Management](./theme/memory_management), [WeakMap](./theme/weakmap)
 
-
+**URL**: [https://www.tiktok.com/@jsmentoring/photo/7458291433980579105](https://www.tiktok.com/@jsmentoring/photo/7458291433980579105)

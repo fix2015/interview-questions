@@ -14,4 +14,4 @@ console.log(Object.isSealed(person)); // true
 
 **Tags**: [basic](./level/basic), [JavaScript](./theme/javascript), [objects](./theme/objects)
 
-
+**URL**: [https://www.tiktok.com/@jsmentoring/photo/7459001015438822689](https://www.tiktok.com/@jsmentoring/photo/7459001015438822689)

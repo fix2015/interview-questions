@@ -23,4 +23,4 @@ console.log(a); // 7
 
 **Tags**: [basic](./level/basic), [JavaScript](./theme/javascript), [operators](./theme/operators)
 
-
+**URL**: [https://www.tiktok.com/@jsmentoring/photo/7461747077505109281](https://www.tiktok.com/@jsmentoring/photo/7461747077505109281)

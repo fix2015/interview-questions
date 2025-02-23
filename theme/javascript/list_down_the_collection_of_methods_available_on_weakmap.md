@@ -20,4 +20,4 @@ console.log(weakmap.get(obj)); // 'value'
 
 **Tags**: [basic](./level/basic), [JavaScript](./theme/javascript), [collections](./theme/collections)
 
-
+**URL**: [https://www.tiktok.com/@jsmentoring/photo/7459137346080869665](https://www.tiktok.com/@jsmentoring/photo/7459137346080869665)

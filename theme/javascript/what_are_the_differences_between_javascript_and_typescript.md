@@ -16,4 +16,4 @@ let name = 'John'; // JavaScript
 
 **Tags**: [basic](./level/basic), [JavaScript](./theme/javascript), [TypeScript](./theme/typescript)
 
-
+**URL**: [https://www.tiktok.com/@jsmentoring/photo/7462815493494197536](https://www.tiktok.com/@jsmentoring/photo/7462815493494197536)

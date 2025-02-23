@@ -13,4 +13,4 @@ console.log(uneval(obj)); // '({ name: "John" })'
 
 **Tags**: [basic](./level/basic), [JavaScript](./theme/javascript), [eval](./theme/eval)
 
-
+**URL**: [https://www.tiktok.com/@jsmentoring/photo/7459148995630337313](https://www.tiktok.com/@jsmentoring/photo/7459148995630337313)

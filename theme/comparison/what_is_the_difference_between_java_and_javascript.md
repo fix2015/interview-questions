@@ -11,4 +11,4 @@ Despite the similar names, they are unrelated in terms of syntax and functionali
 
 **Tags**: [basic](./level/basic), [JavaScript](./theme/javascript), [comparison](./theme/comparison)
 
-
+**URL**: [https://www.tiktok.com/@jsmentoring/photo/7468299270974754081](https://www.tiktok.com/@jsmentoring/photo/7468299270974754081)

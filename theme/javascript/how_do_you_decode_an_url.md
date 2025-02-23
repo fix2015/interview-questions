@@ -14,4 +14,4 @@ console.log(decodedURL); // 'https://example.com/?name=John Doe'
 
 **Tags**: [basic](./level/basic), [JavaScript](./theme/javascript), [encoding](./theme/encoding)
 
-
+**URL**: [https://www.tiktok.com/@jsmentoring/photo/7459171752271269153](https://www.tiktok.com/@jsmentoring/photo/7459171752271269153)

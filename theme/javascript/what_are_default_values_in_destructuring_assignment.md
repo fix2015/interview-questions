@@ -19,4 +19,4 @@ console.log(name, age);  // Output: John 25
 
 **Tags**: [intermediate](./level/intermediate), [JavaScript](./theme/javascript), [Destructuring](./theme/destructuring)
 
-
+**URL**: [https://www.tiktok.com/@jsmentoring/photo/7471727005394930966](https://www.tiktok.com/@jsmentoring/photo/7471727005394930966)

@@ -13,4 +13,4 @@ console.log(window.location.href); // '/new-url'
 
 **Tags**: [intermediate](./level/intermediate), [JavaScript](./theme/javascript), [URL manipulation](./theme/url_manipulation)
 
-
+**URL**: [https://www.tiktok.com/@jsmentoring/photo/7465055907018263841](https://www.tiktok.com/@jsmentoring/photo/7465055907018263841)

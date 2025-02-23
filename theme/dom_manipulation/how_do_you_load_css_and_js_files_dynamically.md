@@ -23,4 +23,4 @@ document.body.appendChild(script);
 
 **Tags**: [intermediate](./level/intermediate), [JavaScript](./theme/javascript), [DOM manipulation](./theme/dom_manipulation)
 
-
+**URL**: [https://www.tiktok.com/@jsmentoring/photo/7468342228621020448](https://www.tiktok.com/@jsmentoring/photo/7468342228621020448)

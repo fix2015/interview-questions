@@ -12,4 +12,4 @@ These tools remove unnecessary characters, such as spaces, comments, and newline
 
 **Tags**: [intermediate](./level/intermediate), [JavaScript](./theme/javascript), [optimization](./theme/optimization)
 
-
+**URL**: [https://www.tiktok.com/@jsmentoring/photo/7463234648185916705](https://www.tiktok.com/@jsmentoring/photo/7463234648185916705)

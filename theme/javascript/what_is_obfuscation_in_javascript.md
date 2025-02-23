@@ -16,4 +16,4 @@ var _0x1234 = function(_0x5678, _0x9abc) { return _0x5678 + _0x9abc; };
 
 **Tags**: [intermediate](./level/intermediate), [JavaScript](./theme/javascript), [security](./theme/security)
 
-
+**URL**: [https://www.tiktok.com/@jsmentoring/photo/7462863313496509729](https://www.tiktok.com/@jsmentoring/photo/7462863313496509729)

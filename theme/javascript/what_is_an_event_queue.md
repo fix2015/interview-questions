@@ -14,4 +14,4 @@ console.log('Start');
 
 **Tags**: [basic](./level/basic), [JavaScript](./theme/javascript), [concurrency model](./theme/concurrency_model)
 
-
+**URL**: [https://www.tiktok.com/@jsmentoring/photo/7461560136851639585](https://www.tiktok.com/@jsmentoring/photo/7461560136851639585)

@@ -14,4 +14,4 @@ console.log(str.trimEnd());    // Output: '   Hello World!'
 
 **Tags**: [basic](./level/basic), [JavaScript](./theme/javascript), [String Manipulation](./theme/string_manipulation)
 
-
+**URL**: [https://www.tiktok.com/@jsmentoring/photo/7473639282557652246](https://www.tiktok.com/@jsmentoring/photo/7473639282557652246)

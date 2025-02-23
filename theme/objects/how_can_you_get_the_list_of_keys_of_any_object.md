@@ -14,4 +14,4 @@ console.log(keys); // ['name', 'age']
 
 **Tags**: [basic](./level/basic), [JavaScript](./theme/javascript), [objects](./theme/objects)
 
-
+**URL**: [https://www.tiktok.com/@jsmentoring/photo/7459041201086319905](https://www.tiktok.com/@jsmentoring/photo/7459041201086319905)

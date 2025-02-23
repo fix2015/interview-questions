@@ -20,4 +20,4 @@ console.log(person.firstName); // 'Jane'
 
 **Tags**: [basic](./level/basic), [JavaScript](./theme/javascript), [objects](./theme/objects)
 
-
+**URL**: [https://www.tiktok.com/@jsmentoring/photo/7459533167528119585](https://www.tiktok.com/@jsmentoring/photo/7459533167528119585)

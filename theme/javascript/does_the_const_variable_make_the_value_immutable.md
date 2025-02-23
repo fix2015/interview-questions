@@ -14,4 +14,4 @@ arr = [4, 5, 6];  // Error: Assignment to constant variable
 
 **Tags**: [intermediate](./level/intermediate), [JavaScript](./theme/javascript), [Variables](./theme/variables)
 
-
+**URL**: [https://www.tiktok.com/@jsmentoring/photo/7470295229015264544](https://www.tiktok.com/@jsmentoring/photo/7470295229015264544)

@@ -227,7 +227,7 @@
 - [multithreading](./theme/multithreading)
 - [async](./theme/async)
 
-## [Tutorials with Videos](./video/) (191)
+## [Tutorials with Videos](./video/) (300)
 - [What is IndexedDB](https://www.tiktok.com/@jsmentoring/photo/7448276165661314336)
 - [What are the options in a cookie](https://www.tiktok.com/@jsmentoring/photo/7448261980567145761)
 - [Differences between cookie, local storage and session storage](https://www.tiktok.com/@jsmentoring/photo/7448258461030173985)
@@ -308,6 +308,7 @@
 - [What is NaN property](https://www.tiktok.com/@jsmentoring/photo/7451255958266760480)
 - [What is an event flow](https://www.tiktok.com/@jsmentoring/photo/7451321489682468128)
 - [What is event bubbling](https://www.tiktok.com/@jsmentoring/photo/7451597511862603040)
+- [Can I add getters and setters using defineProperty method](https://www.tiktok.com/@jsmentoring/photo/7459755921485434144)
 - [Can I use reserved words as identifiers](https://www.tiktok.com/@jsmentoring/photo/7457212868161850657)
 - [Can we define properties for functions](https://www.tiktok.com/@jsmentoring/photo/7456170349391023393)
 - [Can you apply chaining on conditional operator](https://www.tiktok.com/@jsmentoring/photo/7458016862446570785)
@@ -315,71 +316,147 @@
 - [Can you write a random integers function to print integers within a range](https://www.tiktok.com/@jsmentoring/photo/7456920292397518112)
 - [Check for Anagrams](https://www.tiktok.com/@jsmentoring/video/7458386392272473377)
 - [Check if a String is a Palindrome](https://www.tiktok.com/@jsmentoring/video/7458413373315681569)
+- [Does JavaScript supports namespace](https://www.tiktok.com/@jsmentoring/photo/7464760458570911008)
+- [Does the const variable make the value immutable](https://www.tiktok.com/@jsmentoring/photo/7470295229015264544)
 - [Find the First Non-Repeating Character](https://www.tiktok.com/@jsmentoring/video/7458383226621529376)
 - [Find the Most Frequent Element in an Array](https://www.tiktok.com/@jsmentoring/video/7458418483282316576)
+- [Give an example usage of rangeOverflow property](https://www.tiktok.com/@jsmentoring/photo/7465086711412854048)
+- [How can you get the list of keys of any object](https://www.tiktok.com/@jsmentoring/photo/7459041201086319905)
 - [How do get query string values in javascript](https://www.tiktok.com/@jsmentoring/photo/7455462347759471905)
+- [How do get the timezone offset from date](https://www.tiktok.com/@jsmentoring/photo/7468056195111144737)
+- [How do I modify the url without reloading the page](https://www.tiktok.com/@jsmentoring/photo/7465055907018263841)
 - [How do you add a key value pair in javascript](https://www.tiktok.com/@jsmentoring/photo/7456001248484003104)
 - [How do you assign default values to variables](https://www.tiktok.com/@jsmentoring/photo/7456018568077937953)
+- [How do you call the constructor of a parent class](https://www.tiktok.com/@jsmentoring/photo/7463621028627959072)
 - [How do you change the style of a HTML element](https://www.tiktok.com/@jsmentoring/photo/7456849197690621217)
 - [How do you check if a key exists in an object](https://www.tiktok.com/@jsmentoring/photo/7455464658166680864)
 - [How do you check if a string starts with another string](https://www.tiktok.com/@jsmentoring/photo/7455819349048315169)
 - [How do you check whether a string contains a substring](https://www.tiktok.com/@jsmentoring/photo/7457960152197614880)
+- [How do you check whether an array includes a particular value or not](https://www.tiktok.com/@jsmentoring/photo/7464755906626981152)
+- [How do you compare scalar arrays](https://www.tiktok.com/@jsmentoring/photo/7466925859719449889)
 - [How do you compare two date objects](https://www.tiktok.com/@jsmentoring/photo/7455822418272062752)
 - [How do you convert date to another timezone in javascript](https://www.tiktok.com/@jsmentoring/photo/7457198473176190241)
 - [How do you copy properties from one object to other](https://www.tiktok.com/@jsmentoring/photo/7458032154656673056)
+- [How do you create an infinite loop](https://www.tiktok.com/@jsmentoring/photo/7469423331989622048)
 - [How do you create an object with prototype](https://www.tiktok.com/@jsmentoring/photo/7458574988463983904)
+- [How do you decode an URL](https://www.tiktok.com/@jsmentoring/photo/7459171752271269153)
 - [How do you define JSON arrays](https://www.tiktok.com/@jsmentoring/photo/7456895653067672864)
 - [How do you define multiline strings](https://www.tiktok.com/@jsmentoring/photo/7456061031811419424)
+- [How do you define multiple properties on an object](https://www.tiktok.com/@jsmentoring/photo/7462833020551187745)
+- [How do you define property on Object constructor](https://www.tiktok.com/@jsmentoring/photo/7459536638176234785)
+- [How do you detect a browser language preference](https://www.tiktok.com/@jsmentoring/photo/7459014680225303841)
 - [How do you detect a mobile browser without regexp](https://www.tiktok.com/@jsmentoring/photo/7457202437292674337)
 - [How do you detect javascript disabled in the page](https://www.tiktok.com/@jsmentoring/photo/7457508448763120928)
+- [How do you determine if an object is sealed or not](https://www.tiktok.com/@jsmentoring/photo/7459001015438822689)
 - [How do you determine two values same or not using object](https://www.tiktok.com/@jsmentoring/photo/7457684535661137185)
 - [How do you determine whether object is frozen or not](https://www.tiktok.com/@jsmentoring/photo/7457681827478785312)
+- [How do you display the current date in javascript](https://www.tiktok.com/@jsmentoring/photo/7458949968116682016)
+- [How do you encode an URL](https://www.tiktok.com/@jsmentoring/photo/7459156073719680289)
+- [How do you extend classes](https://www.tiktok.com/@jsmentoring/photo/7466566601702133024)
+- [How do you find min and max value in an array](https://www.tiktok.com/@jsmentoring/photo/7462491684585147681)
+- [How do you find min and max values without Math functions](https://www.tiktok.com/@jsmentoring/photo/7462011912289570080)
 - [How do you find operating system details](https://www.tiktok.com/@jsmentoring/photo/7451589366285126944)
 - [How do you generate random integers](https://www.tiktok.com/@jsmentoring/photo/7456916623870512417)
 - [How do you get enumerable key and value pairs](https://www.tiktok.com/@jsmentoring/photo/7458348252274920736)
+- [How do you get metadata of a module](https://www.tiktok.com/@jsmentoring/photo/7462493057984761121)
+- [How do you get property descriptors of an object](https://www.tiktok.com/@jsmentoring/photo/7466604525500042528)
 - [How do you get the current url with javascript](https://www.tiktok.com/@jsmentoring/photo/7458367254942502177)
 - [How do you get the image width and height using JS](https://www.tiktok.com/@jsmentoring/photo/7457292452945268000)
+- [How do you get the prototype of an object](https://www.tiktok.com/@jsmentoring/photo/7463608944322186528)
+- [How do you load CSS and JS files dynamically](https://www.tiktok.com/@jsmentoring/photo/7468342228621020448)
 - [How do you loop through or enumerate javascript object](https://www.tiktok.com/@jsmentoring/photo/7455466200588389664)
 - [How do you make asynchronous HTTP request](https://www.tiktok.com/@jsmentoring/photo/7457281321589656864)
 - [How do you make first letter of the string in an uppercase](https://www.tiktok.com/@jsmentoring/photo/7456035524420062497)
 - [How do you make synchronous HTTP request](https://www.tiktok.com/@jsmentoring/photo/7457614380205739296)
 - [How do you parse JSON string](https://www.tiktok.com/@jsmentoring/photo/7457955955557403937)
+- [How do you perform form validation using JavaScript](https://www.tiktok.com/@jsmentoring/photo/7464738741056294177)
+- [How do you perform form validation without JavaScript](https://www.tiktok.com/@jsmentoring/photo/7463632026873122081)
+- [How do you perform language specific date and time formatting](https://www.tiktok.com/@jsmentoring/photo/7460895683747286304)
+- [How do you prevent an object to extend](https://www.tiktok.com/@jsmentoring/photo/7463226904930258209)
+- [How do you print numbers with commas as thousand separators](https://www.tiktok.com/@jsmentoring/photo/7467333374668049696)
+- [How do you print the contents of web page](https://www.tiktok.com/@jsmentoring/photo/7459302428265942305)
 - [How do you redirect new page in javascript](https://www.tiktok.com/@jsmentoring/photo/7453541079804169504)
+- [How do you reverse an array](https://www.tiktok.com/@jsmentoring/photo/7461767458592918816)
 - [How do you search a string for a pattern](https://www.tiktok.com/@jsmentoring/photo/7456824435211816224)
+- [How do you set prototype of one object to another](https://www.tiktok.com/@jsmentoring/photo/7463628446049127712)
+- [How do you sort elements in an array](https://www.tiktok.com/@jsmentoring/photo/7461738847261478177)
 - [How do you submit a form using JavaScript](https://www.tiktok.com/@jsmentoring/photo/7454702289975119136)
+- [How do you swap variables in destructuring assignment](https://www.tiktok.com/@jsmentoring/photo/7472310346334620950)
 - [How do you test for an empty object](https://www.tiktok.com/@jsmentoring/photo/7455470039198682401)
+- [How do you trim a string at the beginning or ending](https://www.tiktok.com/@jsmentoring/photo/7473639282557652246)
 - [How do you trim a string in javascript](https://www.tiktok.com/@jsmentoring/photo/7455853408113675552)
 - [How do you validate an email in javascript](https://www.tiktok.com/@jsmentoring/photo/7456043510161067296)
+- [How do you write multi-line strings in template literals](https://www.tiktok.com/@jsmentoring/photo/7469863541760101664)
+- [How does synchronous iteration works](https://www.tiktok.com/@jsmentoring/photo/7460552114478140705)
 - [How to convert string to title case with javascript](https://www.tiktok.com/@jsmentoring/photo/7457578972889615648)
+- [How to get the value from get parameters](https://www.tiktok.com/@jsmentoring/photo/7467643182990249249)
+- [How to set the cursor to wait](https://www.tiktok.com/@jsmentoring/photo/7469414701550603553)
+- [Is enums feature available in JavaScript](https://www.tiktok.com/@jsmentoring/photo/7464749346089749792)
 - [Is it recommended to use eval](https://www.tiktok.com/@jsmentoring/photo/7456751494948293920)
 - [Is JavaScript a case-sensitive language](https://www.tiktok.com/@jsmentoring/photo/7454353440626445601)
 - [Is JavaScript a compiled or interpreted language](https://www.tiktok.com/@jsmentoring/photo/7454351953959652640)
 - [Is the !-- notation represents a special operator](https://www.tiktok.com/@jsmentoring/photo/7456013855827791137)
 - [Is there any relation between Java and JavaScript](https://www.tiktok.com/@jsmentoring/photo/7454554999335537952)
+- [List down some of the features of ES6](https://www.tiktok.com/@jsmentoring/photo/7469439568199142689)
+- [List down the collection of methods available on WeakMap](https://www.tiktok.com/@jsmentoring/photo/7459137346080869665)
 - [List down the collection of methods available on WeakSet](https://www.tiktok.com/@jsmentoring/photo/7458291433980579105)
 - [What are break and continue statements](https://www.tiktok.com/@jsmentoring/photo/7456440125774433569)
+- [What are default parameters](https://www.tiktok.com/@jsmentoring/photo/7470673054704635158)
+- [What are default values in destructuring assignment](https://www.tiktok.com/@jsmentoring/photo/7471727005394930966)
+- [What are dynamic imports](https://www.tiktok.com/@jsmentoring/photo/7472877947460799766)
+- [What are enhanced object literals](https://www.tiktok.com/@jsmentoring/photo/7472498912625003798)
 - [What are events](https://www.tiktok.com/@jsmentoring/photo/7454560520000113952)
+- [What are javascript accessors](https://www.tiktok.com/@jsmentoring/photo/7459533167528119585)
 - [What are JS labels](https://www.tiktok.com/@jsmentoring/photo/7456494402261798177)
 - [What are modifiers in regular expression](https://www.tiktok.com/@jsmentoring/photo/7456586559056268576)
+- [What are nesting templates](https://www.tiktok.com/@jsmentoring/photo/7469447667714690337)
+- [What are primitive data types](https://www.tiktok.com/@jsmentoring/photo/7459714568466484513)
 - [What are PWAs](https://www.tiktok.com/@jsmentoring/photo/7453553728059215136)
+- [What are raw strings](https://www.tiktok.com/@jsmentoring/photo/7471026585861164310)
 - [What are regular expression patterns](https://www.tiktok.com/@jsmentoring/photo/7456908944020196641)
+- [What are tagged templates](https://www.tiktok.com/@jsmentoring/photo/7469507120082324768)
+- [What are the advantages of Getters and Setters](https://www.tiktok.com/@jsmentoring/photo/7459673228697554208)
+- [What are the advantages of Minification](https://www.tiktok.com/@jsmentoring/photo/7463246833825991969)
+- [What are the advantages of module loaders](https://www.tiktok.com/@jsmentoring/photo/7472504525740379414)
+- [What are the advantages of TypeScript over JavaScript](https://www.tiktok.com/@jsmentoring/photo/7462837290327395617)
 - [What are the applications of assign method](https://www.tiktok.com/@jsmentoring/photo/7458036822975712544)
+- [What are the applications of seal method](https://www.tiktok.com/@jsmentoring/photo/7458730878810770720)
+- [What are the available constraint validation DOM properties](https://www.tiktok.com/@jsmentoring/photo/7464745553981672736)
 - [What are the benefits of initializing variables](https://www.tiktok.com/@jsmentoring/photo/7456552071349751073)
 - [What are the benefits of keeping declarations at the top](https://www.tiktok.com/@jsmentoring/photo/7456506923873996065)
 - [What are the bitwise operators available in javascript](https://www.tiktok.com/@jsmentoring/video/7457690353714433312)
+- [What are the common tools used for Minification](https://www.tiktok.com/@jsmentoring/photo/7463234648185916705)
+- [What are the conventions to be followed for the usage of switch case](https://www.tiktok.com/@jsmentoring/photo/7459772144747105568)
+- [What are the differences between JavaScript and TypeScript](https://www.tiktok.com/@jsmentoring/photo/7462815493494197536)
+- [What are the differences between Obfuscation and Encryption](https://www.tiktok.com/@jsmentoring/photo/7463193138585292065)
 - [What are the differences between WeakMap and Map](https://www.tiktok.com/@jsmentoring/photo/7458189087422401825)
 - [What are the differences between WeakSet and Set](https://www.tiktok.com/@jsmentoring/photo/7458240152905846048)
+- [What are the different error names from error object](https://www.tiktok.com/@jsmentoring/photo/7460435743840718113)
+- [What are the different methods to find HTML elements in DOM](https://www.tiktok.com/@jsmentoring/photo/7468425060965960993)
+- [What are the different ways to make an object non-extensible](https://www.tiktok.com/@jsmentoring/photo/7462880139987209505)
+- [What are the DOM methods available for constraint validation](https://www.tiktok.com/@jsmentoring/photo/7466219893701053728)
+- [What are the function parameter rules](https://www.tiktok.com/@jsmentoring/photo/7459895386811976992)
+- [What are the list of validity properties](https://www.tiktok.com/@jsmentoring/photo/7466576921191583008)
+- [What are the properties of Intl object](https://www.tiktok.com/@jsmentoring/photo/7461735308938235168)
 - [What are the properties used to get size of window](https://www.tiktok.com/@jsmentoring/photo/7456924943062715680)
 - [What are the pros and cons of promises over callbacks](https://www.tiktok.com/@jsmentoring/photo/7453226425227726112)
 - [What are the recommendations to create new object](https://www.tiktok.com/@jsmentoring/photo/7456561892916563233)
 - [What are the steps involved in return false usage](https://www.tiktok.com/@jsmentoring/photo/7456163504303787297)
 - [What are the syntax rules of JSON](https://www.tiktok.com/@jsmentoring/photo/7453777976652467489)
 - [What are the tools or techniques used for debugging JavaScript code](https://www.tiktok.com/@jsmentoring/photo/7454541000824917281)
+- [What are the two types of loops in javascript](https://www.tiktok.com/@jsmentoring/photo/7460508135346687265)
+- [What are the use cases for dynamic imports](https://www.tiktok.com/@jsmentoring/photo/7472500779358686486)
 - [What are the various URL properties of location object](https://www.tiktok.com/@jsmentoring/photo/7455459948529487136)
 - [What are the ways to execute javascript after page load](https://www.tiktok.com/@jsmentoring/photo/7457929884061469985)
+- [What are typed arrays](https://www.tiktok.com/@jsmentoring/photo/7473277864649968918)
 - [What are various operators supported by javascript](https://www.tiktok.com/@jsmentoring/photo/7457453251810561313)
+- [What happens If I pass string type for getPrototype method](https://www.tiktok.com/@jsmentoring/photo/7463635925373947169)
+- [What happens if you write constructor more than once in a class](https://www.tiktok.com/@jsmentoring/photo/7463617735281347873)
+- [What is a comma operator](https://www.tiktok.com/@jsmentoring/photo/7462513246734535969)
 - [What is a conditional operator in javascript](https://www.tiktok.com/@jsmentoring/photo/7457925912974216481)
+- [What is a constructor method](https://www.tiktok.com/@jsmentoring/photo/7462819474555653408)
 - [What is a debugger statement](https://www.tiktok.com/@jsmentoring/photo/7457945315644165408)
+- [What is a decorator](https://www.tiktok.com/@jsmentoring/photo/7460446342461099296)
 - [What is a freeze method](https://www.tiktok.com/@jsmentoring/photo/7457554518977285408)
 - [What is a polyfill](https://www.tiktok.com/@jsmentoring/photo/7456405893618437409)
 - [What is a proxy object](https://www.tiktok.com/@jsmentoring/photo/7458050469735320865)
@@ -387,26 +464,52 @@
 - [What is a Regular Expression](https://www.tiktok.com/@jsmentoring/photo/7456774238825925920)
 - [What is a rest parameter](https://www.tiktok.com/@jsmentoring/photo/7457471528330988832)
 - [What is a WeakMap](https://www.tiktok.com/@jsmentoring/photo/7458221758114516256)
+- [What is a WeakSet](https://www.tiktok.com/@jsmentoring/photo/7461719258490211617)
+- [What is an anonymous function](https://www.tiktok.com/@jsmentoring/photo/7459468048118861089)
 - [What is an app shell model](https://www.tiktok.com/@jsmentoring/photo/7456136059966049568)
 - [What is an arguments object](https://www.tiktok.com/@jsmentoring/photo/7455473337897061664)
+- [What is an empty statement and purpose of it](https://www.tiktok.com/@jsmentoring/photo/7462028520613547296)
+- [What is an enum](https://www.tiktok.com/@jsmentoring/photo/7465480690658725152)
+- [What is an error object](https://www.tiktok.com/@jsmentoring/photo/7460422441794391329)
 - [What is an event delegation](https://www.tiktok.com/@jsmentoring/photo/7455085016050060576)
+- [What is an event queue](https://www.tiktok.com/@jsmentoring/photo/7461560136851639585)
+- [What is an Intl object](https://www.tiktok.com/@jsmentoring/photo/7461350028158815521)
+- [What is an Iterator](https://www.tiktok.com/@jsmentoring/photo/7460104729561992481)
+- [What is an object initializer](https://www.tiktok.com/@jsmentoring/photo/7463237018944916769)
+- [What is an Unary operator](https://www.tiktok.com/@jsmentoring/photo/7461747077505109281)
 - [What is BOM](https://www.tiktok.com/@jsmentoring/photo/7454626475623468320)
+- [What is call stack](https://www.tiktok.com/@jsmentoring/photo/7460132409997069601)
+- [What is destructuring assignment](https://www.tiktok.com/@jsmentoring/photo/7470674451730910486)
 - [What is ECMAScript](https://www.tiktok.com/@jsmentoring/photo/7453531864133815584)
+- [What is ES6](https://www.tiktok.com/@jsmentoring/photo/7469442691240185121)
 - [What is event capturing](https://www.tiktok.com/@jsmentoring/photo/7451534594895056160)
 - [What is JSON](https://www.tiktok.com/@jsmentoring/photo/7456025885263629601)
+- [What is MEAN in JavaScript](https://www.tiktok.com/@jsmentoring/photo/7463877222730911008)
+- [What is microtask](https://www.tiktok.com/@jsmentoring/photo/7459906574425902368)
+- [What is Minification](https://www.tiktok.com/@jsmentoring/photo/7462868427363994913)
+- [What Is Obfuscation in JavaScript](https://www.tiktok.com/@jsmentoring/photo/7462863313496509729)
+- [What is optional chaining?](https://www.tiktok.com/@jsmentoring/photo/7459817458866687264)
 - [What is same-origin policy](https://www.tiktok.com/@jsmentoring/photo/7454519704300948768)
+- [What is the advantage of a comma operator](https://www.tiktok.com/@jsmentoring/photo/7462499238195236128)
 - [What is the difference between an attribute and a property](https://www.tiktok.com/@jsmentoring/photo/7453198212661382432)
 - [What is the difference between document load and DOMContentLoaded events](https://www.tiktok.com/@jsmentoring/photo/7451559472939437344)
+- [What is the difference between Java and JavaScript](https://www.tiktok.com/@jsmentoring/photo/7468299270974754081)
 - [What is the difference between native, host and user objects](https://www.tiktok.com/@jsmentoring/photo/7451546871723576608)
+- [What is the difference between uneval and eval](https://www.tiktok.com/@jsmentoring/photo/7459446884436905249)
 - [What is the main difference between Object.values and Object.entries method](https://www.tiktok.com/@jsmentoring/photo/7458282098579737889)
 - [What is the need of tree shaking](https://www.tiktok.com/@jsmentoring/photo/7456574498947599648)
 - [What is the output of below spread operator array](https://www.tiktok.com/@jsmentoring/photo/7457941742650789152)
+- [What is the output of the following for loops](https://www.tiktok.com/@jsmentoring/photo/7469419711726488865)
+- [What is the precedence order between local and global variables](https://www.tiktok.com/@jsmentoring/photo/7459521760090787105)
 - [What is the purpose JSON stringify](https://www.tiktok.com/@jsmentoring/photo/7458382016141200673)
 - [What is the purpose of breakpoints in debugging](https://www.tiktok.com/@jsmentoring/photo/7457249779840486688)
 - [What is the purpose of clearInterval method](https://www.tiktok.com/@jsmentoring/photo/7457687525340089633)
 - [What is the purpose of clearTimeout method](https://www.tiktok.com/@jsmentoring/photo/7453583130859949344)
+- [What is the purpose of compareFunction while sorting arrays](https://www.tiktok.com/@jsmentoring/photo/7461759054034128161)
 - [What is the purpose of exec method](https://www.tiktok.com/@jsmentoring/photo/7456816176019082529)
 - [What is the purpose of seal method](https://www.tiktok.com/@jsmentoring/photo/7458057057950895392)
+- [What is the purpose of switch-case](https://www.tiktok.com/@jsmentoring/photo/7459766080223841569)
+- [What is the purpose of uneval](https://www.tiktok.com/@jsmentoring/photo/7459148995630337313)
 - [What is the purpose of void 0](https://www.tiktok.com/@jsmentoring/video/7454350834697080096)
 - [What is the use of preventDefault method](https://www.tiktok.com/@jsmentoring/photo/7454611976598113568)
 - [What is the use of setInterval](https://www.tiktok.com/@jsmentoring/photo/7455059689315896609)
@@ -414,11 +517,17 @@
 - [What is the use of stopPropagation method](https://www.tiktok.com/@jsmentoring/photo/7454613743649951008)
 - [What is the way to find the number of parameters expected by a function](https://www.tiktok.com/@jsmentoring/photo/7456397129393704224)
 - [What is tree shaking](https://www.tiktok.com/@jsmentoring/photo/7456569241815354657)
+- [What is V8 JavaScript engine](https://www.tiktok.com/@jsmentoring/photo/7468430768063122721)
 - [What would be the result of 1+2+'3'](https://www.tiktok.com/@jsmentoring/photo/7456799873505987873)
+- [When you get a syntax error](https://www.tiktok.com/@jsmentoring/photo/7460430178938834209)
 - [Who created JavaScript](https://www.tiktok.com/@jsmentoring/photo/7454609808038153504)
 - [Why do I need to use freeze method](https://www.tiktok.com/@jsmentoring/photo/7457632028364737825)
+- [Why do we call javascript as dynamic language](https://www.tiktok.com/@jsmentoring/photo/7468752457196162337)
 - [Why do you need JSON](https://www.tiktok.com/@jsmentoring/photo/7453770486993014049)
+- [Why do you need to avoid with statement](https://www.tiktok.com/@jsmentoring/photo/7469541897426586913)
 - [Why is JavaScript treated as Single threaded](https://www.tiktok.com/@jsmentoring/photo/7455079370881879329)
+- [How to catch errors in callbacks](https://www.tiktok.com/@jsmentoring/photo/7458362542088277281)
+- [What are weak references?](https://www.tiktok.com/@jsmentoring/photo/7458291433980579105)
 
 ## All questions
 ### What is IndexedDB?
@@ -1395,7 +1504,7 @@ console.log(person.name); // 'JOHN'
 
 **Tags**: [basic](./level/basic), [JavaScript](./theme/javascript), [objects](./theme/objects)
 
-
+**URL**: [https://www.tiktok.com/@jsmentoring/photo/7459755921485434144](https://www.tiktok.com/@jsmentoring/photo/7459755921485434144)
 
 ---
 
@@ -1981,7 +2090,7 @@ MyNamespace.myFunction(); // 'Hello!'
 
 **Tags**: [intermediate](./level/intermediate), [JavaScript](./theme/javascript), [namespaces](./theme/namespaces)
 
-
+**URL**: [https://www.tiktok.com/@jsmentoring/photo/7464760458570911008](https://www.tiktok.com/@jsmentoring/photo/7464760458570911008)
 
 ---
 
@@ -2020,7 +2129,7 @@ arr = [4, 5, 6];  // Error: Assignment to constant variable
 
 **Tags**: [intermediate](./level/intermediate), [JavaScript](./theme/javascript), [Variables](./theme/variables)
 
-
+**URL**: [https://www.tiktok.com/@jsmentoring/photo/7470295229015264544](https://www.tiktok.com/@jsmentoring/photo/7470295229015264544)
 
 ---
 
@@ -4276,7 +4385,7 @@ Example:
 
 **Tags**: [intermediate](./level/intermediate), [JavaScript](./theme/javascript), [DOM](./theme/dom), [validation](./theme/validation)
 
-
+**URL**: [https://www.tiktok.com/@jsmentoring/photo/7465086711412854048](https://www.tiktok.com/@jsmentoring/photo/7465086711412854048)
 
 ---
 
@@ -4294,7 +4403,7 @@ console.log(keys); // ['name', 'age']
 
 **Tags**: [basic](./level/basic), [JavaScript](./theme/javascript), [objects](./theme/objects)
 
-
+**URL**: [https://www.tiktok.com/@jsmentoring/photo/7459041201086319905](https://www.tiktok.com/@jsmentoring/photo/7459041201086319905)
 
 ---
 
@@ -4327,7 +4436,7 @@ console.log(offset); // Logs the timezone offset in minutes
 
 **Tags**: [basic](./level/basic), [JavaScript](./theme/javascript), [Date](./theme/date)
 
-
+**URL**: [https://www.tiktok.com/@jsmentoring/photo/7468056195111144737](https://www.tiktok.com/@jsmentoring/photo/7468056195111144737)
 
 ---
 
@@ -4344,7 +4453,7 @@ console.log(window.location.href); // '/new-url'
 
 **Tags**: [intermediate](./level/intermediate), [JavaScript](./theme/javascript), [URL manipulation](./theme/url_manipulation)
 
-
+**URL**: [https://www.tiktok.com/@jsmentoring/photo/7465055907018263841](https://www.tiktok.com/@jsmentoring/photo/7465055907018263841)
 
 ---
 
@@ -4439,7 +4548,7 @@ console.log(dog.name); // Rex
 
 **Tags**: [basic](./level/basic), [JavaScript](./theme/javascript), [classes](./theme/classes)
 
-
+**URL**: [https://www.tiktok.com/@jsmentoring/photo/7463621028627959072](https://www.tiktok.com/@jsmentoring/photo/7463621028627959072)
 
 ---
 
@@ -4559,7 +4668,7 @@ console.log(arr.includes(6)); // false
 
 **Tags**: [basic](./level/basic), [JavaScript](./theme/javascript), [arrays](./theme/arrays)
 
-
+**URL**: [https://www.tiktok.com/@jsmentoring/photo/7464755906626981152](https://www.tiktok.com/@jsmentoring/photo/7464755906626981152)
 
 ---
 
@@ -4616,7 +4725,7 @@ console.log(areArraysEqual); // true
 
 **Tags**: [intermediate](./level/intermediate), [JavaScript](./theme/javascript), [arrays](./theme/arrays)
 
-
+**URL**: [https://www.tiktok.com/@jsmentoring/photo/7466925859719449889](https://www.tiktok.com/@jsmentoring/photo/7466925859719449889)
 
 ---
 
@@ -4730,7 +4839,7 @@ while (true) {
 
 **Tags**: [intermediate](./level/intermediate), [JavaScript](./theme/javascript), [Loops](./theme/loops)
 
-
+**URL**: [https://www.tiktok.com/@jsmentoring/photo/7469423331989622048](https://www.tiktok.com/@jsmentoring/photo/7469423331989622048)
 
 ---
 
@@ -4945,7 +5054,7 @@ console.log(decodedURL); // 'https://example.com/?name=John Doe'
 
 **Tags**: [basic](./level/basic), [JavaScript](./theme/javascript), [encoding](./theme/encoding)
 
-
+**URL**: [https://www.tiktok.com/@jsmentoring/photo/7459171752271269153](https://www.tiktok.com/@jsmentoring/photo/7459171752271269153)
 
 ---
 
@@ -5033,7 +5142,7 @@ console.log(person);
 
 **Tags**: [basic](./level/basic), [JavaScript](./theme/javascript), [objects](./theme/objects)
 
-
+**URL**: [https://www.tiktok.com/@jsmentoring/photo/7462833020551187745](https://www.tiktok.com/@jsmentoring/photo/7462833020551187745)
 
 ---
 
@@ -5055,7 +5164,7 @@ console.log(person.age); // 30
 
 **Tags**: [basic](./level/basic), [JavaScript](./theme/javascript), [objects](./theme/objects)
 
-
+**URL**: [https://www.tiktok.com/@jsmentoring/photo/7459536638176234785](https://www.tiktok.com/@jsmentoring/photo/7459536638176234785)
 
 ---
 
@@ -5071,7 +5180,7 @@ console.log(navigator.language); // 'en-US'
 
 **Tags**: [basic](./level/basic), [JavaScript](./theme/javascript), [browser features](./theme/browser_features)
 
-
+**URL**: [https://www.tiktok.com/@jsmentoring/photo/7459014680225303841](https://www.tiktok.com/@jsmentoring/photo/7459014680225303841)
 
 ---
 
@@ -5165,7 +5274,7 @@ console.log(Object.isSealed(person)); // true
 
 **Tags**: [basic](./level/basic), [JavaScript](./theme/javascript), [objects](./theme/objects)
 
-
+**URL**: [https://www.tiktok.com/@jsmentoring/photo/7459001015438822689](https://www.tiktok.com/@jsmentoring/photo/7459001015438822689)
 
 ---
 
@@ -5255,7 +5364,7 @@ console.log(currentDate); // Displays the current date and time
 
 **Tags**: [basic](./level/basic), [JavaScript](./theme/javascript), [date and time](./theme/date_and_time)
 
-
+**URL**: [https://www.tiktok.com/@jsmentoring/photo/7458949968116682016](https://www.tiktok.com/@jsmentoring/photo/7458949968116682016)
 
 ---
 
@@ -5291,7 +5400,7 @@ console.log(encodedURL); // 'https%3A%2F%2Fexample.com%2F%3Fname%3DJohn%20Doe'
 
 **Tags**: [basic](./level/basic), [JavaScript](./theme/javascript), [encoding](./theme/encoding)
 
-
+**URL**: [https://www.tiktok.com/@jsmentoring/photo/7459156073719680289](https://www.tiktok.com/@jsmentoring/photo/7459156073719680289)
 
 ---
 
@@ -5321,7 +5430,7 @@ dog.speak(); // 'Buddy barks'
 
 **Tags**: [intermediate](./level/intermediate), [JavaScript](./theme/javascript), [classes](./theme/classes)
 
-
+**URL**: [https://www.tiktok.com/@jsmentoring/photo/7466566601702133024](https://www.tiktok.com/@jsmentoring/photo/7466566601702133024)
 
 ---
 
@@ -5339,7 +5448,7 @@ console.log(Math.max(...arr)); // 5
 
 **Tags**: [basic](./level/basic), [JavaScript](./theme/javascript), [arrays](./theme/arrays)
 
-
+**URL**: [https://www.tiktok.com/@jsmentoring/photo/7462491684585147681](https://www.tiktok.com/@jsmentoring/photo/7462491684585147681)
 
 ---
 
@@ -5362,7 +5471,7 @@ console.log(max); // 5
 
 **Tags**: [basic](./level/basic), [JavaScript](./theme/javascript), [arrays](./theme/arrays)
 
-
+**URL**: [https://www.tiktok.com/@jsmentoring/photo/7462011912289570080](https://www.tiktok.com/@jsmentoring/photo/7462011912289570080)
 
 ---
 
@@ -5442,7 +5551,7 @@ console.log(import.meta.url);
 
 **Tags**: [basic](./level/basic), [JavaScript](./theme/javascript), [modules](./theme/modules)
 
-
+**URL**: [https://www.tiktok.com/@jsmentoring/photo/7462493057984761121](https://www.tiktok.com/@jsmentoring/photo/7462493057984761121)
 
 ---
 
@@ -5461,7 +5570,7 @@ console.log(descriptor);
 
 **Tags**: [intermediate](./level/intermediate), [JavaScript](./theme/javascript), [objects](./theme/objects)
 
-
+**URL**: [https://www.tiktok.com/@jsmentoring/photo/7466604525500042528](https://www.tiktok.com/@jsmentoring/photo/7466604525500042528)
 
 ---
 
@@ -5510,7 +5619,7 @@ console.log(prototype); // Outputs the prototype of the object
 
 **Tags**: [basic](./level/basic), [JavaScript](./theme/javascript), [objects](./theme/objects)
 
-
+**URL**: [https://www.tiktok.com/@jsmentoring/photo/7463608944322186528](https://www.tiktok.com/@jsmentoring/photo/7463608944322186528)
 
 ---
 
@@ -5656,7 +5765,7 @@ document.body.appendChild(script);
 
 **Tags**: [intermediate](./level/intermediate), [JavaScript](./theme/javascript), [DOM manipulation](./theme/dom_manipulation)
 
-
+**URL**: [https://www.tiktok.com/@jsmentoring/photo/7468342228621020448](https://www.tiktok.com/@jsmentoring/photo/7468342228621020448)
 
 ---
 
@@ -5819,7 +5928,7 @@ form.onsubmit = function(event) {
 
 **Tags**: [intermediate](./level/intermediate), [JavaScript](./theme/javascript), [forms](./theme/forms)
 
-
+**URL**: [https://www.tiktok.com/@jsmentoring/photo/7464738741056294177](https://www.tiktok.com/@jsmentoring/photo/7464738741056294177)
 
 ---
 
@@ -5839,7 +5948,7 @@ Example:
 
 **Tags**: [intermediate](./level/intermediate), [HTML](./theme/html), [forms](./theme/forms)
 
-
+**URL**: [https://www.tiktok.com/@jsmentoring/photo/7463632026873122081](https://www.tiktok.com/@jsmentoring/photo/7463632026873122081)
 
 ---
 
@@ -5857,7 +5966,7 @@ console.log(formatter.format(date)); // 'December 21, 2024'
 
 **Tags**: [basic](./level/basic), [JavaScript](./theme/javascript), [internationalization](./theme/internationalization)
 
-
+**URL**: [https://www.tiktok.com/@jsmentoring/photo/7460895683747286304](https://www.tiktok.com/@jsmentoring/photo/7460895683747286304)
 
 ---
 
@@ -5876,7 +5985,7 @@ console.log(obj); // { name: 'John' }
 
 **Tags**: [basic](./level/basic), [JavaScript](./theme/javascript), [objects](./theme/objects)
 
-
+**URL**: [https://www.tiktok.com/@jsmentoring/photo/7463226904930258209](https://www.tiktok.com/@jsmentoring/photo/7463226904930258209)
 
 ---
 
@@ -5920,7 +6029,7 @@ console.log(number.toLocaleString()); // '1,234,567.89'
 
 **Tags**: [basic](./level/basic), [JavaScript](./theme/javascript), [number formatting](./theme/number_formatting)
 
-
+**URL**: [https://www.tiktok.com/@jsmentoring/photo/7467333374668049696](https://www.tiktok.com/@jsmentoring/photo/7467333374668049696)
 
 ---
 
@@ -5936,7 +6045,7 @@ window.print();
 
 **Tags**: [basic](./level/basic), [JavaScript](./theme/javascript), [printing](./theme/printing)
 
-
+**URL**: [https://www.tiktok.com/@jsmentoring/photo/7459302428265942305](https://www.tiktok.com/@jsmentoring/photo/7459302428265942305)
 
 ---
 
@@ -6023,7 +6132,7 @@ console.log(arr); // [3, 2, 1]
 
 **Tags**: [basic](./level/basic), [JavaScript](./theme/javascript), [arrays](./theme/arrays)
 
-
+**URL**: [https://www.tiktok.com/@jsmentoring/photo/7461767458592918816](https://www.tiktok.com/@jsmentoring/photo/7461767458592918816)
 
 ---
 
@@ -6077,7 +6186,7 @@ dog.speak(); // Animal speaks
 
 **Tags**: [basic](./level/basic), [JavaScript](./theme/javascript), [objects](./theme/objects)
 
-
+**URL**: [https://www.tiktok.com/@jsmentoring/photo/7463628446049127712](https://www.tiktok.com/@jsmentoring/photo/7463628446049127712)
 
 ---
 
@@ -6098,7 +6207,7 @@ console.log(arr); // [1, 2, 3]
 
 **Tags**: [basic](./level/basic), [JavaScript](./theme/javascript), [arrays](./theme/arrays)
 
-
+**URL**: [https://www.tiktok.com/@jsmentoring/photo/7461738847261478177](https://www.tiktok.com/@jsmentoring/photo/7461738847261478177)
 
 ---
 
@@ -6130,7 +6239,7 @@ console.log(a, b);  // Output: 2 1
 
 **Tags**: [intermediate](./level/intermediate), [JavaScript](./theme/javascript), [Destructuring](./theme/destructuring)
 
-
+**URL**: [https://www.tiktok.com/@jsmentoring/photo/7472310346334620950](https://www.tiktok.com/@jsmentoring/photo/7472310346334620950)
 
 ---
 
@@ -6163,7 +6272,7 @@ console.log(str.trimEnd());    // Output: '   Hello World!'
 
 **Tags**: [basic](./level/basic), [JavaScript](./theme/javascript), [String Manipulation](./theme/string_manipulation)
 
-
+**URL**: [https://www.tiktok.com/@jsmentoring/photo/7473639282557652246](https://www.tiktok.com/@jsmentoring/photo/7473639282557652246)
 
 ---
 
@@ -6256,7 +6365,7 @@ console.log(multilineString);
 
 **Tags**: [intermediate](./level/intermediate), [JavaScript](./theme/javascript), [Strings](./theme/strings)
 
-
+**URL**: [https://www.tiktok.com/@jsmentoring/photo/7469863541760101664](https://www.tiktok.com/@jsmentoring/photo/7469863541760101664)
 
 ---
 
@@ -6273,7 +6382,7 @@ arr.forEach(item => console.log(item)); // Output: 1, 2, 3
 
 **Tags**: [basic](./level/basic), [JavaScript](./theme/javascript), [iteration](./theme/iteration)
 
-
+**URL**: [https://www.tiktok.com/@jsmentoring/photo/7460552114478140705](https://www.tiktok.com/@jsmentoring/photo/7460552114478140705)
 
 ---
 
@@ -6412,7 +6521,7 @@ console.log(value); // Logs the value of 'param' from the URL
 
 **Tags**: [intermediate](./level/intermediate), [JavaScript](./theme/javascript), [URL manipulation](./theme/url_manipulation)
 
-
+**URL**: [https://www.tiktok.com/@jsmentoring/photo/7467643182990249249](https://www.tiktok.com/@jsmentoring/photo/7467643182990249249)
 
 ---
 
@@ -6474,7 +6583,7 @@ document.body.style.cursor = 'default';  // Changes cursor back to default
 
 **Tags**: [basic](./level/basic), [JavaScript](./theme/javascript), [UI manipulation](./theme/ui_manipulation)
 
-
+**URL**: [https://www.tiktok.com/@jsmentoring/photo/7469414701550603553](https://www.tiktok.com/@jsmentoring/photo/7469414701550603553)
 
 ---
 
@@ -6543,7 +6652,7 @@ Alternatively, TypeScript provides a native `enum` feature.
 
 **Tags**: [intermediate](./level/intermediate), [JavaScript](./theme/javascript), [features](./theme/features)
 
-
+**URL**: [https://www.tiktok.com/@jsmentoring/photo/7464749346089749792](https://www.tiktok.com/@jsmentoring/photo/7464749346089749792)
 
 ---
 
@@ -6726,7 +6835,7 @@ console.log(first, second);  // Output: 1 2
 
 **Tags**: [intermediate](./level/intermediate), [JavaScript](./theme/javascript), [ES6](./theme/es6)
 
-
+**URL**: [https://www.tiktok.com/@jsmentoring/photo/7469439568199142689](https://www.tiktok.com/@jsmentoring/photo/7469439568199142689)
 
 ---
 
@@ -6750,7 +6859,7 @@ console.log(weakmap.get(obj)); // 'value'
 
 **Tags**: [basic](./level/basic), [JavaScript](./theme/javascript), [collections](./theme/collections)
 
-
+**URL**: [https://www.tiktok.com/@jsmentoring/photo/7459137346080869665](https://www.tiktok.com/@jsmentoring/photo/7459137346080869665)
 
 ---
 
@@ -7258,7 +7367,7 @@ greet('John');  // Output: Hello, John
 
 **Tags**: [intermediate](./level/intermediate), [JavaScript](./theme/javascript), [Functions](./theme/functions)
 
-
+**URL**: [https://www.tiktok.com/@jsmentoring/photo/7470673054704635158](https://www.tiktok.com/@jsmentoring/photo/7470673054704635158)
 
 ---
 
@@ -7281,7 +7390,7 @@ console.log(name, age);  // Output: John 25
 
 **Tags**: [intermediate](./level/intermediate), [JavaScript](./theme/javascript), [Destructuring](./theme/destructuring)
 
-
+**URL**: [https://www.tiktok.com/@jsmentoring/photo/7471727005394930966](https://www.tiktok.com/@jsmentoring/photo/7471727005394930966)
 
 ---
 
@@ -7312,7 +7421,7 @@ import('module').then(module => {
 
 **Tags**: [advanced](./level/advanced), [JavaScript](./theme/javascript), [Modules](./theme/modules)
 
-
+**URL**: [https://www.tiktok.com/@jsmentoring/photo/7472877947460799766](https://www.tiktok.com/@jsmentoring/photo/7472877947460799766)
 
 ---
 
@@ -7335,7 +7444,7 @@ person.greet();  // Output: Hello, John
 
 **Tags**: [intermediate](./level/intermediate), [JavaScript](./theme/javascript), [Objects](./theme/objects)
 
-
+**URL**: [https://www.tiktok.com/@jsmentoring/photo/7472498912625003798](https://www.tiktok.com/@jsmentoring/photo/7472498912625003798)
 
 ---
 
@@ -7402,7 +7511,7 @@ console.log(person.firstName); // 'Jane'
 
 **Tags**: [basic](./level/basic), [JavaScript](./theme/javascript), [objects](./theme/objects)
 
-
+**URL**: [https://www.tiktok.com/@jsmentoring/photo/7459533167528119585](https://www.tiktok.com/@jsmentoring/photo/7459533167528119585)
 
 ---
 
@@ -7454,7 +7563,7 @@ console.log(message);  // Output: Hello, Mr. John!
 
 **Tags**: [intermediate](./level/intermediate), [JavaScript](./theme/javascript), [Strings](./theme/strings)
 
-
+**URL**: [https://www.tiktok.com/@jsmentoring/photo/7469447667714690337](https://www.tiktok.com/@jsmentoring/photo/7469447667714690337)
 
 ---
 
@@ -7480,7 +7589,7 @@ const isActive = true; // boolean
 
 **Tags**: [basic](./level/basic), [JavaScript](./theme/javascript), [data types](./theme/data_types)
 
-
+**URL**: [https://www.tiktok.com/@jsmentoring/photo/7459714568466484513](https://www.tiktok.com/@jsmentoring/photo/7459714568466484513)
 
 ---
 
@@ -7509,7 +7618,7 @@ console.log(rawStr);  // Output: Hello\nWorld
 
 **Tags**: [advanced](./level/advanced), [JavaScript](./theme/javascript), [Strings](./theme/strings)
 
-
+**URL**: [https://www.tiktok.com/@jsmentoring/photo/7471026585861164310](https://www.tiktok.com/@jsmentoring/photo/7471026585861164310)
 
 ---
 
@@ -7546,7 +7655,7 @@ tag`Hello, ${name}!`;  // Output: ['Hello, ', '!'] ['John']
 
 **Tags**: [advanced](./level/advanced), [JavaScript](./theme/javascript), [Strings](./theme/strings)
 
-
+**URL**: [https://www.tiktok.com/@jsmentoring/photo/7469507120082324768](https://www.tiktok.com/@jsmentoring/photo/7469507120082324768)
 
 ---
 
@@ -7598,7 +7707,7 @@ console.log(person.name); // 'JANE'
 
 **Tags**: [basic](./level/basic), [JavaScript](./theme/javascript), [objects](./theme/objects)
 
-
+**URL**: [https://www.tiktok.com/@jsmentoring/photo/7459673228697554208](https://www.tiktok.com/@jsmentoring/photo/7459673228697554208)
 
 ---
 
@@ -7613,7 +7722,7 @@ Tools like UglifyJS, Terser, and Google Closure Compiler can be used for minific
 
 **Tags**: [intermediate](./level/intermediate), [JavaScript](./theme/javascript), [optimization](./theme/optimization)
 
-
+**URL**: [https://www.tiktok.com/@jsmentoring/photo/7463246833825991969](https://www.tiktok.com/@jsmentoring/photo/7463246833825991969)
 
 ---
 
@@ -7625,7 +7734,7 @@ Example: Tools like Webpack, RequireJS, and SystemJS are popular module loaders.
 
 **Tags**: [advanced](./level/advanced), [JavaScript](./theme/javascript), [Modules](./theme/modules)
 
-
+**URL**: [https://www.tiktok.com/@jsmentoring/photo/7472504525740379414](https://www.tiktok.com/@jsmentoring/photo/7472504525740379414)
 
 ---
 
@@ -7648,7 +7757,7 @@ greet(42); // Error: Argument of type 'number' is not assignable to parameter of
 
 **Tags**: [basic](./level/basic), [TypeScript](./theme/typescript)
 
-
+**URL**: [https://www.tiktok.com/@jsmentoring/photo/7462837290327395617](https://www.tiktok.com/@jsmentoring/photo/7462837290327395617)
 
 ---
 
@@ -7686,7 +7795,7 @@ person.city = 'New York'; // Not allowed
 
 **Tags**: [basic](./level/basic), [JavaScript](./theme/javascript), [objects](./theme/objects)
 
-
+**URL**: [https://www.tiktok.com/@jsmentoring/photo/7458730878810770720](https://www.tiktok.com/@jsmentoring/photo/7458730878810770720)
 
 ---
 
@@ -7756,7 +7865,7 @@ console.log(input.validity.rangeUnderflow); // true or false
 
 **Tags**: [intermediate](./level/intermediate), [JavaScript](./theme/javascript), [DOM](./theme/dom), [validation](./theme/validation)
 
-
+**URL**: [https://www.tiktok.com/@jsmentoring/photo/7464745553981672736](https://www.tiktok.com/@jsmentoring/photo/7464745553981672736)
 
 ---
 
@@ -7875,7 +7984,7 @@ These tools remove unnecessary characters, such as spaces, comments, and newline
 
 **Tags**: [intermediate](./level/intermediate), [JavaScript](./theme/javascript), [optimization](./theme/optimization)
 
-
+**URL**: [https://www.tiktok.com/@jsmentoring/photo/7463234648185916705](https://www.tiktok.com/@jsmentoring/photo/7463234648185916705)
 
 ---
 
@@ -7927,7 +8036,7 @@ switch(number) {
 
 **Tags**: [basic](./level/basic), [JavaScript](./theme/javascript), [control structures](./theme/control_structures)
 
-
+**URL**: [https://www.tiktok.com/@jsmentoring/photo/7459772144747105568](https://www.tiktok.com/@jsmentoring/photo/7459772144747105568)
 
 ---
 
@@ -8032,7 +8141,7 @@ let name = 'John'; // JavaScript
 
 **Tags**: [basic](./level/basic), [JavaScript](./theme/javascript), [TypeScript](./theme/typescript)
 
-
+**URL**: [https://www.tiktok.com/@jsmentoring/photo/7462815493494197536](https://www.tiktok.com/@jsmentoring/photo/7462815493494197536)
 
 ---
 
@@ -8048,7 +8157,7 @@ Example:
 
 **Tags**: [intermediate](./level/intermediate), [JavaScript](./theme/javascript), [security](./theme/security)
 
-
+**URL**: [https://www.tiktok.com/@jsmentoring/photo/7463193138585292065](https://www.tiktok.com/@jsmentoring/photo/7463193138585292065)
 
 ---
 
@@ -8227,7 +8336,7 @@ try {
 
 **Tags**: [basic](./level/basic), [JavaScript](./theme/javascript), [errors](./theme/errors)
 
-
+**URL**: [https://www.tiktok.com/@jsmentoring/photo/7460435743840718113](https://www.tiktok.com/@jsmentoring/photo/7460435743840718113)
 
 ---
 
@@ -8283,7 +8392,7 @@ const elements = document.getElementsByClassName('myClass');
 
 **Tags**: [basic](./level/basic), [JavaScript](./theme/javascript), [DOM manipulation](./theme/dom_manipulation)
 
-
+**URL**: [https://www.tiktok.com/@jsmentoring/photo/7468425060965960993](https://www.tiktok.com/@jsmentoring/photo/7468425060965960993)
 
 ---
 
@@ -8411,7 +8520,7 @@ console.log(Object.isExtensible(obj)); // false
 
 **Tags**: [basic](./level/basic), [JavaScript](./theme/javascript), [objects](./theme/objects)
 
-
+**URL**: [https://www.tiktok.com/@jsmentoring/photo/7462880139987209505](https://www.tiktok.com/@jsmentoring/photo/7462880139987209505)
 
 ---
 
@@ -8434,7 +8543,7 @@ if (!input.checkValidity()) {
 
 **Tags**: [intermediate](./level/intermediate), [JavaScript](./theme/javascript), [DOM](./theme/dom), [validation](./theme/validation)
 
-
+**URL**: [https://www.tiktok.com/@jsmentoring/photo/7466219893701053728](https://www.tiktok.com/@jsmentoring/photo/7466219893701053728)
 
 ---
 
@@ -8531,7 +8640,7 @@ greet('John'); // 'Hello, John'
 
 **Tags**: [basic](./level/basic), [JavaScript](./theme/javascript), [functions](./theme/functions)
 
-
+**URL**: [https://www.tiktok.com/@jsmentoring/photo/7459895386811976992](https://www.tiktok.com/@jsmentoring/photo/7459895386811976992)
 
 ---
 
@@ -8572,7 +8681,7 @@ Here is a list of validity properties that you can access through the `validity`
 
 **Tags**: [intermediate](./level/intermediate), [JavaScript](./theme/javascript), [DOM](./theme/dom), [validation](./theme/validation)
 
-
+**URL**: [https://www.tiktok.com/@jsmentoring/photo/7466576921191583008](https://www.tiktok.com/@jsmentoring/photo/7466576921191583008)
 
 ---
 
@@ -8751,7 +8860,7 @@ console.log(formatter.format(1000)); // '$1,000.00'
 
 **Tags**: [basic](./level/basic), [JavaScript](./theme/javascript), [internationalization](./theme/internationalization)
 
-
+**URL**: [https://www.tiktok.com/@jsmentoring/photo/7461735308938235168](https://www.tiktok.com/@jsmentoring/photo/7461735308938235168)
 
 ---
 
@@ -8910,7 +9019,7 @@ while (j < 5) {
 
 **Tags**: [basic](./level/basic), [JavaScript](./theme/javascript), [loops](./theme/loops)
 
-
+**URL**: [https://www.tiktok.com/@jsmentoring/photo/7460508135346687265](https://www.tiktok.com/@jsmentoring/photo/7460508135346687265)
 
 ---
 
@@ -8930,7 +9039,7 @@ if (userWantsFeature) {
 
 **Tags**: [advanced](./level/advanced), [JavaScript](./theme/javascript), [Modules](./theme/modules)
 
-
+**URL**: [https://www.tiktok.com/@jsmentoring/photo/7472500779358686486](https://www.tiktok.com/@jsmentoring/photo/7472500779358686486)
 
 ---
 
@@ -9037,7 +9146,7 @@ console.log(int32View[0]);  // Output: 42
 
 **Tags**: [advanced](./level/advanced), [JavaScript](./theme/javascript), [Arrays](./theme/arrays)
 
-
+**URL**: [https://www.tiktok.com/@jsmentoring/photo/7473277864649968918](https://www.tiktok.com/@jsmentoring/photo/7473277864649968918)
 
 ---
 
@@ -9090,7 +9199,7 @@ console.log(Object.getPrototypeOf('hello')); // TypeError
 
 **Tags**: [basic](./level/basic), [JavaScript](./theme/javascript), [objects](./theme/objects)
 
-
+**URL**: [https://www.tiktok.com/@jsmentoring/photo/7463635925373947169](https://www.tiktok.com/@jsmentoring/photo/7463635925373947169)
 
 ---
 
@@ -9148,7 +9257,7 @@ console.log(person.name); // John
 
 **Tags**: [basic](./level/basic), [JavaScript](./theme/javascript), [classes](./theme/classes)
 
-
+**URL**: [https://www.tiktok.com/@jsmentoring/photo/7463617735281347873](https://www.tiktok.com/@jsmentoring/photo/7463617735281347873)
 
 ---
 
@@ -9184,7 +9293,7 @@ console.log(a); // 3
 
 **Tags**: [basic](./level/basic), [JavaScript](./theme/javascript), [operators](./theme/operators)
 
-
+**URL**: [https://www.tiktok.com/@jsmentoring/photo/7462513246734535969](https://www.tiktok.com/@jsmentoring/photo/7462513246734535969)
 
 ---
 
@@ -9223,7 +9332,7 @@ console.log(person.name); // John
 
 **Tags**: [basic](./level/basic), [JavaScript](./theme/javascript), [classes](./theme/classes)
 
-
+**URL**: [https://www.tiktok.com/@jsmentoring/photo/7462819474555653408](https://www.tiktok.com/@jsmentoring/photo/7462819474555653408)
 
 ---
 
@@ -9271,7 +9380,7 @@ obj.myMethod(); // Logs: 'Calling myMethod' and 'Method executed'
 
 **Tags**: [basic](./level/basic), [JavaScript](./theme/javascript), [design patterns](./theme/design_patterns)
 
-
+**URL**: [https://www.tiktok.com/@jsmentoring/photo/7460446342461099296](https://www.tiktok.com/@jsmentoring/photo/7460446342461099296)
 
 ---
 
@@ -9545,7 +9654,7 @@ console.log(weakset.has(obj1)); // true
 
 **Tags**: [basic](./level/basic), [JavaScript](./theme/javascript), [collections](./theme/collections)
 
-
+**URL**: [https://www.tiktok.com/@jsmentoring/photo/7461719258490211617](https://www.tiktok.com/@jsmentoring/photo/7461719258490211617)
 
 ---
 
@@ -9580,7 +9689,7 @@ greet(); // 'Hello'
 
 **Tags**: [basic](./level/basic), [JavaScript](./theme/javascript), [functions](./theme/functions)
 
-
+**URL**: [https://www.tiktok.com/@jsmentoring/photo/7459468048118861089](https://www.tiktok.com/@jsmentoring/photo/7459468048118861089)
 
 ---
 
@@ -9645,7 +9754,7 @@ for (let i = 0; i < 5; i++) { ; }
 
 **Tags**: [basic](./level/basic), [JavaScript](./theme/javascript), [statements](./theme/statements)
 
-
+**URL**: [https://www.tiktok.com/@jsmentoring/photo/7462028520613547296](https://www.tiktok.com/@jsmentoring/photo/7462028520613547296)
 
 ---
 
@@ -9667,7 +9776,7 @@ console.log(color); // 'RED'
 
 **Tags**: [intermediate](./level/intermediate), [JavaScript](./theme/javascript), [TypeScript](./theme/typescript)
 
-
+**URL**: [https://www.tiktok.com/@jsmentoring/photo/7465480690658725152](https://www.tiktok.com/@jsmentoring/photo/7465480690658725152)
 
 ---
 
@@ -9713,7 +9822,7 @@ try {
 
 **Tags**: [basic](./level/basic), [JavaScript](./theme/javascript), [errors](./theme/errors)
 
-
+**URL**: [https://www.tiktok.com/@jsmentoring/photo/7460422441794391329](https://www.tiktok.com/@jsmentoring/photo/7460422441794391329)
 
 ---
 
@@ -9760,7 +9869,7 @@ console.log('Start');
 
 **Tags**: [basic](./level/basic), [JavaScript](./theme/javascript), [concurrency model](./theme/concurrency_model)
 
-
+**URL**: [https://www.tiktok.com/@jsmentoring/photo/7461560136851639585](https://www.tiktok.com/@jsmentoring/photo/7461560136851639585)
 
 ---
 
@@ -9788,7 +9897,7 @@ console.log(formatter.format(number)); // '123,456.789'
 
 **Tags**: [basic](./level/basic), [JavaScript](./theme/javascript), [internationalization](./theme/internationalization)
 
-
+**URL**: [https://www.tiktok.com/@jsmentoring/photo/7461350028158815521](https://www.tiktok.com/@jsmentoring/photo/7461350028158815521)
 
 ---
 
@@ -9807,7 +9916,7 @@ console.log(iterator.next()); // { value: 2, done: false }
 
 **Tags**: [basic](./level/basic), [JavaScript](./theme/javascript), [iterators](./theme/iterators)
 
-
+**URL**: [https://www.tiktok.com/@jsmentoring/photo/7460104729561992481](https://www.tiktok.com/@jsmentoring/photo/7460104729561992481)
 
 ---
 
@@ -9824,7 +9933,7 @@ console.log(person.name); // John
 
 **Tags**: [basic](./level/basic), [JavaScript](./theme/javascript), [objects](./theme/objects)
 
-
+**URL**: [https://www.tiktok.com/@jsmentoring/photo/7463237018944916769](https://www.tiktok.com/@jsmentoring/photo/7463237018944916769)
 
 ---
 
@@ -9874,7 +9983,7 @@ console.log(a); // 7
 
 **Tags**: [basic](./level/basic), [JavaScript](./theme/javascript), [operators](./theme/operators)
 
-
+**URL**: [https://www.tiktok.com/@jsmentoring/photo/7461747077505109281](https://www.tiktok.com/@jsmentoring/photo/7461747077505109281)
 
 ---
 
@@ -9942,7 +10051,7 @@ a();
 
 **Tags**: [basic](./level/basic), [JavaScript](./theme/javascript), [execution context](./theme/execution_context)
 
-
+**URL**: [https://www.tiktok.com/@jsmentoring/photo/7460132409997069601](https://www.tiktok.com/@jsmentoring/photo/7460132409997069601)
 
 ---
 
@@ -10049,7 +10158,7 @@ console.log(name, age);  // Output: John 30
 
 **Tags**: [intermediate](./level/intermediate), [JavaScript](./theme/javascript), [Destructuring](./theme/destructuring)
 
-
+**URL**: [https://www.tiktok.com/@jsmentoring/photo/7470674451730910486](https://www.tiktok.com/@jsmentoring/photo/7470674451730910486)
 
 ---
 
@@ -10069,7 +10178,7 @@ ES6 (ECMAScript 2015) is the sixth version of the ECMAScript standard, which def
 
 **Tags**: [intermediate](./level/intermediate), [JavaScript](./theme/javascript), [ES6](./theme/es6)
 
-
+**URL**: [https://www.tiktok.com/@jsmentoring/photo/7469442691240185121](https://www.tiktok.com/@jsmentoring/photo/7469442691240185121)
 
 ---
 
@@ -10313,7 +10422,7 @@ The MEAN stack provides a full-stack JavaScript solution for both client-side an
 
 **Tags**: [basic](./level/basic), [JavaScript](./theme/javascript), [frameworks](./theme/frameworks)
 
-
+**URL**: [https://www.tiktok.com/@jsmentoring/photo/7463877222730911008](https://www.tiktok.com/@jsmentoring/photo/7463877222730911008)
 
 ---
 
@@ -10330,7 +10439,7 @@ Promise.resolve().then(() => console.log('Microtask executed'));
 
 **Tags**: [advanced](./level/advanced), [JavaScript](./theme/javascript), [Event Loop](./theme/event_loop)
 
-
+**URL**: [https://www.tiktok.com/@jsmentoring/photo/7459906574425902368](https://www.tiktok.com/@jsmentoring/photo/7459906574425902368)
 
 ---
 
@@ -10352,7 +10461,7 @@ function sum(a,b){return a+b;}
 
 **Tags**: [intermediate](./level/intermediate), [JavaScript](./theme/javascript), [optimization](./theme/optimization)
 
-
+**URL**: [https://www.tiktok.com/@jsmentoring/photo/7462868427363994913](https://www.tiktok.com/@jsmentoring/photo/7462868427363994913)
 
 ---
 
@@ -10461,7 +10570,7 @@ var _0x1234 = function(_0x5678, _0x9abc) { return _0x5678 + _0x9abc; };
 
 **Tags**: [intermediate](./level/intermediate), [JavaScript](./theme/javascript), [security](./theme/security)
 
-
+**URL**: [https://www.tiktok.com/@jsmentoring/photo/7462863313496509729](https://www.tiktok.com/@jsmentoring/photo/7462863313496509729)
 
 ---
 
@@ -10479,7 +10588,7 @@ console.log(user.address?.street); // undefined
 
 **Tags**: [basic](./level/basic), [JavaScript](./theme/javascript), [Operators](./theme/operators)
 
-
+**URL**: [https://www.tiktok.com/@jsmentoring/photo/7459817458866687264](https://www.tiktok.com/@jsmentoring/photo/7459817458866687264)
 
 ---
 
@@ -10585,7 +10694,7 @@ console.log(x); // 3
 
 **Tags**: [basic](./level/basic), [JavaScript](./theme/javascript), [operators](./theme/operators)
 
-
+**URL**: [https://www.tiktok.com/@jsmentoring/photo/7462499238195236128](https://www.tiktok.com/@jsmentoring/photo/7462499238195236128)
 
 ---
 
@@ -10778,7 +10887,7 @@ Despite the similar names, they are unrelated in terms of syntax and functionali
 
 **Tags**: [basic](./level/basic), [JavaScript](./theme/javascript), [comparison](./theme/comparison)
 
-
+**URL**: [https://www.tiktok.com/@jsmentoring/photo/7468299270974754081](https://www.tiktok.com/@jsmentoring/photo/7468299270974754081)
 
 ---
 
@@ -10976,7 +11085,7 @@ eval(code); // Executes code
 
 **Tags**: [basic](./level/basic), [JavaScript](./theme/javascript), [eval](./theme/eval)
 
-
+**URL**: [https://www.tiktok.com/@jsmentoring/photo/7459446884436905249](https://www.tiktok.com/@jsmentoring/photo/7459446884436905249)
 
 ---
 
@@ -11213,7 +11322,7 @@ for (let i = 0; i < 3; i++) {
 
 **Tags**: [basic](./level/basic), [JavaScript](./theme/javascript), [Loops](./theme/loops)
 
-
+**URL**: [https://www.tiktok.com/@jsmentoring/photo/7469419711726488865](https://www.tiktok.com/@jsmentoring/photo/7469419711726488865)
 
 ---
 
@@ -11235,7 +11344,7 @@ console.log(name); // 'Global'
 
 **Tags**: [basic](./level/basic), [JavaScript](./theme/javascript), [variables](./theme/variables)
 
-
+**URL**: [https://www.tiktok.com/@jsmentoring/photo/7459521760090787105](https://www.tiktok.com/@jsmentoring/photo/7459521760090787105)
 
 ---
 
@@ -11295,7 +11404,7 @@ console.log(arr); // [1, 2, 3]
 
 **Tags**: [basic](./level/basic), [JavaScript](./theme/javascript), [arrays](./theme/arrays)
 
-
+**URL**: [https://www.tiktok.com/@jsmentoring/photo/7461759054034128161](https://www.tiktok.com/@jsmentoring/photo/7461759054034128161)
 
 ---
 
@@ -11511,7 +11620,7 @@ switch(fruit) {
 
 **Tags**: [basic](./level/basic), [JavaScript](./theme/javascript), [control structures](./theme/control_structures)
 
-
+**URL**: [https://www.tiktok.com/@jsmentoring/photo/7459766080223841569](https://www.tiktok.com/@jsmentoring/photo/7459766080223841569)
 
 ---
 
@@ -11556,7 +11665,7 @@ console.log(uneval(obj)); // '({ name: "John" })'
 
 **Tags**: [basic](./level/basic), [JavaScript](./theme/javascript), [eval](./theme/eval)
 
-
+**URL**: [https://www.tiktok.com/@jsmentoring/photo/7459148995630337313](https://www.tiktok.com/@jsmentoring/photo/7459148995630337313)
 
 ---
 
@@ -11730,7 +11839,7 @@ V8 optimizes JavaScript performance through techniques like Just-In-Time (JIT) c
 
 **Tags**: [intermediate](./level/intermediate), [JavaScript](./theme/javascript), [engines](./theme/engines)
 
-
+**URL**: [https://www.tiktok.com/@jsmentoring/photo/7468430768063122721](https://www.tiktok.com/@jsmentoring/photo/7468430768063122721)
 
 ---
 
@@ -11801,7 +11910,7 @@ if (true) {
 
 **Tags**: [basic](./level/basic), [JavaScript](./theme/javascript), [errors](./theme/errors)
 
-
+**URL**: [https://www.tiktok.com/@jsmentoring/photo/7460430178938834209](https://www.tiktok.com/@jsmentoring/photo/7460430178938834209)
 
 ---
 
@@ -11846,7 +11955,7 @@ dynamicVar = 'Hello';  // String
 
 **Tags**: [basic](./level/basic), [JavaScript](./theme/javascript), [Language features](./theme/language_features)
 
-
+**URL**: [https://www.tiktok.com/@jsmentoring/photo/7468752457196162337](https://www.tiktok.com/@jsmentoring/photo/7468752457196162337)
 
 ---
 
@@ -11891,7 +12000,7 @@ with (Math) {
 
 **Tags**: [intermediate](./level/intermediate), [JavaScript](./theme/javascript), [Best Practices](./theme/best_practices)
 
-
+**URL**: [https://www.tiktok.com/@jsmentoring/photo/7469541897426586913](https://www.tiktok.com/@jsmentoring/photo/7469541897426586913)
 
 ---
 
@@ -12623,7 +12732,7 @@ performAsyncOperation((error, result) => {
 
 **Tags**: [intermediate](./level/intermediate), [JavaScript](./theme/javascript), [Callbacks](./theme/callbacks), [Error Handling](./theme/error_handling)
 
-
+**URL**: [https://www.tiktok.com/@jsmentoring/photo/7458362542088277281](https://www.tiktok.com/@jsmentoring/photo/7458362542088277281)
 
 ---
 
@@ -12749,7 +12858,7 @@ Weak references, such as those used in `WeakMap` and `WeakSet`, allow garbage co
 
 **Tags**: [advanced](./level/advanced), [JavaScript](./theme/javascript), [Memory Management](./theme/memory_management), [WeakMap](./theme/weakmap)
 
-
+**URL**: [https://www.tiktok.com/@jsmentoring/photo/7458291433980579105](https://www.tiktok.com/@jsmentoring/photo/7458291433980579105)
 
 ---
 

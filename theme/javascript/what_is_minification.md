@@ -18,4 +18,4 @@ function sum(a,b){return a+b;}
 
 **Tags**: [intermediate](./level/intermediate), [JavaScript](./theme/javascript), [optimization](./theme/optimization)
 
-
+**URL**: [https://www.tiktok.com/@jsmentoring/photo/7462868427363994913](https://www.tiktok.com/@jsmentoring/photo/7462868427363994913)

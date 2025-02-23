@@ -15,4 +15,4 @@ console.log(descriptor);
 
 **Tags**: [intermediate](./level/intermediate), [JavaScript](./theme/javascript), [objects](./theme/objects)
 
-
+**URL**: [https://www.tiktok.com/@jsmentoring/photo/7466604525500042528](https://www.tiktok.com/@jsmentoring/photo/7466604525500042528)

@@ -17,4 +17,4 @@ Here is a list of validity properties that you can access through the `validity`
 
 **Tags**: [intermediate](./level/intermediate), [JavaScript](./theme/javascript), [DOM](./theme/dom), [validation](./theme/validation)
 
-
+**URL**: [https://www.tiktok.com/@jsmentoring/photo/7466576921191583008](https://www.tiktok.com/@jsmentoring/photo/7466576921191583008)

@@ -15,4 +15,4 @@ console.log(obj); // { name: 'John' }
 
 **Tags**: [basic](./level/basic), [JavaScript](./theme/javascript), [objects](./theme/objects)
 
-
+**URL**: [https://www.tiktok.com/@jsmentoring/photo/7463226904930258209](https://www.tiktok.com/@jsmentoring/photo/7463226904930258209)

@@ -14,4 +14,4 @@ document.body.style.cursor = 'default';  // Changes cursor back to default
 
 **Tags**: [basic](./level/basic), [JavaScript](./theme/javascript), [UI manipulation](./theme/ui_manipulation)
 
-
+**URL**: [https://www.tiktok.com/@jsmentoring/photo/7469414701550603553](https://www.tiktok.com/@jsmentoring/photo/7469414701550603553)

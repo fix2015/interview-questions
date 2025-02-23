@@ -18,4 +18,4 @@ console.log(color); // 'RED'
 
 **Tags**: [intermediate](./level/intermediate), [JavaScript](./theme/javascript), [TypeScript](./theme/typescript)
 
-
+**URL**: [https://www.tiktok.com/@jsmentoring/photo/7465480690658725152](https://www.tiktok.com/@jsmentoring/photo/7465480690658725152)

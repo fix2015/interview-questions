@@ -19,4 +19,4 @@ person.greet();  // Output: Hello, John
 
 **Tags**: [intermediate](./level/intermediate), [JavaScript](./theme/javascript), [Objects](./theme/objects)
 
-
+**URL**: [https://www.tiktok.com/@jsmentoring/photo/7472498912625003798](https://www.tiktok.com/@jsmentoring/photo/7472498912625003798)

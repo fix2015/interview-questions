@@ -18,4 +18,4 @@ Alternatively, TypeScript provides a native `enum` feature.
 
 **Tags**: [intermediate](./level/intermediate), [JavaScript](./theme/javascript), [features](./theme/features)
 
-
+**URL**: [https://www.tiktok.com/@jsmentoring/photo/7464749346089749792](https://www.tiktok.com/@jsmentoring/photo/7464749346089749792)

@@ -19,4 +19,4 @@ console.log(multilineString);
 
 **Tags**: [intermediate](./level/intermediate), [JavaScript](./theme/javascript), [Strings](./theme/strings)
 
-
+**URL**: [https://www.tiktok.com/@jsmentoring/photo/7469863541760101664](https://www.tiktok.com/@jsmentoring/photo/7469863541760101664)

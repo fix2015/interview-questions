@@ -14,4 +14,4 @@ console.log(a, b);  // Output: 2 1
 
 **Tags**: [intermediate](./level/intermediate), [JavaScript](./theme/javascript), [Destructuring](./theme/destructuring)
 
-
+**URL**: [https://www.tiktok.com/@jsmentoring/photo/7472310346334620950](https://www.tiktok.com/@jsmentoring/photo/7472310346334620950)

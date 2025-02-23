@@ -11,4 +11,4 @@ Tools like UglifyJS, Terser, and Google Closure Compiler can be used for minific
 
 **Tags**: [intermediate](./level/intermediate), [JavaScript](./theme/javascript), [optimization](./theme/optimization)
 
-
+**URL**: [https://www.tiktok.com/@jsmentoring/photo/7463246833825991969](https://www.tiktok.com/@jsmentoring/photo/7463246833825991969)

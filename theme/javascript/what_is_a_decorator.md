@@ -27,4 +27,4 @@ obj.myMethod(); // Logs: 'Calling myMethod' and 'Method executed'
 
 **Tags**: [basic](./level/basic), [JavaScript](./theme/javascript), [design patterns](./theme/design_patterns)
 
-
+**URL**: [https://www.tiktok.com/@jsmentoring/photo/7460446342461099296](https://www.tiktok.com/@jsmentoring/photo/7460446342461099296)

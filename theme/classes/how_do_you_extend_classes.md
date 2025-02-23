@@ -26,4 +26,4 @@ dog.speak(); // 'Buddy barks'
 
 **Tags**: [intermediate](./level/intermediate), [JavaScript](./theme/javascript), [classes](./theme/classes)
 
-
+**URL**: [https://www.tiktok.com/@jsmentoring/photo/7466566601702133024](https://www.tiktok.com/@jsmentoring/photo/7466566601702133024)

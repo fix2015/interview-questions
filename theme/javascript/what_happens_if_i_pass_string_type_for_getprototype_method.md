@@ -14,4 +14,4 @@ console.log(Object.getPrototypeOf('hello')); // TypeError
 
 **Tags**: [basic](./level/basic), [JavaScript](./theme/javascript), [objects](./theme/objects)
 
-
+**URL**: [https://www.tiktok.com/@jsmentoring/photo/7463635925373947169](https://www.tiktok.com/@jsmentoring/photo/7463635925373947169)

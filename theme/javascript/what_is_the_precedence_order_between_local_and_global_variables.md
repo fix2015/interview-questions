@@ -18,4 +18,4 @@ console.log(name); // 'Global'
 
 **Tags**: [basic](./level/basic), [JavaScript](./theme/javascript), [variables](./theme/variables)
 
-
+**URL**: [https://www.tiktok.com/@jsmentoring/photo/7459521760090787105](https://www.tiktok.com/@jsmentoring/photo/7459521760090787105)

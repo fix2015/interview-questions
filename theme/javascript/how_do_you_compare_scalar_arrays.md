@@ -15,4 +15,4 @@ console.log(areArraysEqual); // true
 
 **Tags**: [intermediate](./level/intermediate), [JavaScript](./theme/javascript), [arrays](./theme/arrays)
 
-
+**URL**: [https://www.tiktok.com/@jsmentoring/photo/7466925859719449889](https://www.tiktok.com/@jsmentoring/photo/7466925859719449889)

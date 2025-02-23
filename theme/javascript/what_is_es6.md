@@ -6,4 +6,4 @@ ES6 (ECMAScript 2015) is the sixth version of the ECMAScript standard, which def
 
 **Tags**: [intermediate](./level/intermediate), [JavaScript](./theme/javascript), [ES6](./theme/es6)
 
-
+**URL**: [https://www.tiktok.com/@jsmentoring/photo/7469442691240185121](https://www.tiktok.com/@jsmentoring/photo/7469442691240185121)

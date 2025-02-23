@@ -15,4 +15,4 @@ console.log(iterator.next()); // { value: 2, done: false }
 
 **Tags**: [basic](./level/basic), [JavaScript](./theme/javascript), [iterators](./theme/iterators)
 
-
+**URL**: [https://www.tiktok.com/@jsmentoring/photo/7460104729561992481](https://www.tiktok.com/@jsmentoring/photo/7460104729561992481)

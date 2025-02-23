@@ -14,4 +14,4 @@ console.log(message);  // Output: Hello, Mr. John!
 
 **Tags**: [intermediate](./level/intermediate), [JavaScript](./theme/javascript), [Strings](./theme/strings)
 
-
+**URL**: [https://www.tiktok.com/@jsmentoring/photo/7469447667714690337](https://www.tiktok.com/@jsmentoring/photo/7469447667714690337)

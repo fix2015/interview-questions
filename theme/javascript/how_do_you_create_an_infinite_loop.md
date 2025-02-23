@@ -14,4 +14,4 @@ while (true) {
 
 **Tags**: [intermediate](./level/intermediate), [JavaScript](./theme/javascript), [Loops](./theme/loops)
 
-
+**URL**: [https://www.tiktok.com/@jsmentoring/photo/7469423331989622048](https://www.tiktok.com/@jsmentoring/photo/7469423331989622048)

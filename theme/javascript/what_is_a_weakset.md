@@ -15,4 +15,4 @@ console.log(weakset.has(obj1)); // true
 
 **Tags**: [basic](./level/basic), [JavaScript](./theme/javascript), [collections](./theme/collections)
 
-
+**URL**: [https://www.tiktok.com/@jsmentoring/photo/7461719258490211617](https://www.tiktok.com/@jsmentoring/photo/7461719258490211617)

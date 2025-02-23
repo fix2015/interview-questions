@@ -14,4 +14,4 @@ console.log(encodedURL); // 'https%3A%2F%2Fexample.com%2F%3Fname%3DJohn%20Doe'
 
 **Tags**: [basic](./level/basic), [JavaScript](./theme/javascript), [encoding](./theme/encoding)
 
-
+**URL**: [https://www.tiktok.com/@jsmentoring/photo/7459156073719680289](https://www.tiktok.com/@jsmentoring/photo/7459156073719680289)

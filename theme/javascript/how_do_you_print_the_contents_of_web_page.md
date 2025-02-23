@@ -12,4 +12,4 @@ window.print();
 
 **Tags**: [basic](./level/basic), [JavaScript](./theme/javascript), [printing](./theme/printing)
 
-
+**URL**: [https://www.tiktok.com/@jsmentoring/photo/7459302428265942305](https://www.tiktok.com/@jsmentoring/photo/7459302428265942305)

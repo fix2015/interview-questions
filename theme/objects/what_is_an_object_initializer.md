@@ -13,4 +13,4 @@ console.log(person.name); // John
 
 **Tags**: [basic](./level/basic), [JavaScript](./theme/javascript), [objects](./theme/objects)
 
-
+**URL**: [https://www.tiktok.com/@jsmentoring/photo/7463237018944916769](https://www.tiktok.com/@jsmentoring/photo/7463237018944916769)

@@ -16,4 +16,4 @@ MyNamespace.myFunction(); // 'Hello!'
 
 **Tags**: [intermediate](./level/intermediate), [JavaScript](./theme/javascript), [namespaces](./theme/namespaces)
 
-
+**URL**: [https://www.tiktok.com/@jsmentoring/photo/7464760458570911008](https://www.tiktok.com/@jsmentoring/photo/7464760458570911008)
