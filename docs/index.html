@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>javascript-questions-pro — 619 JavaScript Interview Questions</title>
+  <meta name="description" content="619 JavaScript interview questions across 218 themes and 4 difficulty levels. With answers, code examples, and video explanations.">
+  <meta name="author" content="Vitalii Semianchuk">
+  <meta property="og:title" content="javascript-questions-pro — 619 JS Interview Questions">
+  <meta property="og:description" content="619 JavaScript interview questions across 218 themes. Beginner to advanced. With answers and code.">
+  <meta property="og:url" content="https://fix2015.github.io/javascript-questions-pro">
+  <meta property="og:type" content="website">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism-tomorrow.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+<header class="header">
+  <button class="hamburger" aria-label="Menu">&#9776;</button>
+  <a href="#" class="header-brand"><span>javascript</span>-questions-pro</a>
+  <div class="header-links">
+    <span class="badge">619 questions</span>
+    <a href="https://github.com/fix2015/javascript-questions-pro" target="_blank">GitHub</a>
+  </div>
+</header>
+<div class="sidebar-overlay"></div>
+<nav class="sidebar">
+  <div class="sidebar-group">
+    <div class="sidebar-group-title">Overview</div>
+    <a href="#overview">About</a>
+    <a href="#stats">Stats</a>
+  </div>
+  <div class="sidebar-group">
+    <div class="sidebar-group-title">Levels</div>
+    <a href="#beginner">Beginner</a>
+    <a href="#basic">Basic</a>
+    <a href="#intermediate">Intermediate</a>
+    <a href="#advanced">Advanced</a>
+  </div>
+  <div class="sidebar-group">
+    <div class="sidebar-group-title">Themes</div>
+    <a href="#themes-core">Core JS</a>
+    <a href="#themes-async">Async</a>
+    <a href="#themes-dom">DOM & Browser</a>
+    <a href="#themes-data">Data Structures</a>
+    <a href="#themes-patterns">Patterns</a>
+    <a href="#themes-api">APIs & Storage</a>
+  </div>
+  <div class="sidebar-group">
+    <div class="sidebar-group-title">More</div>
+    <a href="#usage">CLI Usage</a>
+    <a href="#contributing">Contributing</a>
+  </div>
+</nav>
+<div class="main">
+<div class="hero">
+  <h1>javascript-questions-pro</h1>
+  <p class="subtitle">619 JavaScript Interview Questions<br>4 Levels &middot; 218 Themes &middot; With Answers & Code</p>
+  <div class="hero-buttons">
+    <a href="https://github.com/fix2015/javascript-questions-pro" target="_blank" class="btn btn-primary">Browse Questions</a>
+    <a href="#themes-core" class="btn btn-outline">Explore Themes</a>
+  </div>
+  <p class="meta">619 questions <span>&middot;</span> 218 themes <span>&middot;</span> 4 difficulty levels <span>&middot;</span> MIT License</p>
+</div>
+<div class="content">
+<div class="features">
+  <div class="feature-card"><h3>4 Difficulty Levels</h3><p>Beginner, Basic, Intermediate, and Advanced. Progress from fundamentals to expert-level concepts.</p></div>
+  <div class="feature-card"><h3>218 Themes</h3><p>Closures, promises, event loop, prototypes, DOM, Web APIs, patterns, security, performance, and more.</p></div>
+  <div class="feature-card"><h3>Code + Answers</h3><p>Every question includes a detailed answer with code examples. Many have video explanations.</p></div>
+</div>
+
+<section id="overview">
+  <h1>Overview</h1>
+  <p>javascript-questions-pro is a comprehensive collection of 619 JavaScript interview questions organized by difficulty level and theme. Each question includes a detailed answer with code examples, making it perfect for interview preparation, self-study, or teaching.</p>
+</section>
+
+<section id="stats">
+  <h2>Stats</h2>
+  <table>
+    <thead><tr><th>Metric</th><th>Count</th></tr></thead>
+    <tbody>
+      <tr><td>Total Questions</td><td><strong>619</strong></td></tr>
+      <tr><td>Themes</td><td><strong>218</strong></td></tr>
+      <tr><td>Difficulty Levels</td><td><strong>4</strong></td></tr>
+      <tr><td>Questions with Code</td><td><strong>619</strong></td></tr>
+    </tbody>
+  </table>
+</section>
+
+<section id="beginner">
+  <h1>Levels</h1>
+  <h2>Beginner</h2>
+  <p>Fundamental JavaScript concepts: variables, types, operators, basic functions, strings, arrays.</p>
+  <pre><code class="language-javascript">// Example: What is the difference between let and var?
+var x = 1;    // function-scoped, hoisted
+let y = 2;    // block-scoped, not hoisted
+const z = 3;  // block-scoped, cannot reassign</code></pre>
+</section>
+
+<section id="basic">
+  <h2>Basic</h2>
+  <p>Core language features: closures, scope, hoisting, this keyword, prototypes, basic DOM manipulation.</p>
+  <pre><code class="language-javascript">// Example: What is a closure?
+function outer() {
+  let count = 0;
+  return function inner() {
+    return ++count;
+  };
+}
+const counter = outer();
+counter(); // 1
+counter(); // 2</code></pre>
+</section>
+
+<section id="intermediate">
+  <h2>Intermediate</h2>
+  <p>Async patterns, promises, event loop, error handling, modules, classes, iterators, generators.</p>
+  <pre><code class="language-javascript">// Example: What is the event loop?
+console.log('1');
+setTimeout(() => console.log('2'), 0);
+Promise.resolve().then(() => console.log('3'));
+console.log('4');
+// Output: 1, 4, 3, 2</code></pre>
+</section>
+
+<section id="advanced">
+  <h2>Advanced</h2>
+  <p>Proxies, Reflect, WeakRef, FinalizationRegistry, SharedArrayBuffer, Atomics, advanced patterns, performance optimization, security.</p>
+  <pre><code class="language-javascript">// Example: How does Proxy work?
+const handler = {
+  get(target, prop) {
+    return prop in target ? target[prop] : `Property ${prop} not found`;
+  }
+};
+const obj = new Proxy({ name: 'John' }, handler);
+obj.name;  // 'John'
+obj.age;   // 'Property age not found'</code></pre>
+</section>
+
+<section id="themes-core">
+  <h1>Themes</h1>
+  <h2>Core JavaScript</h2>
+  <p>Closures, scope, hoisting, this, prototypes, inheritance, type coercion, equality, typeof, instanceof, destructuring, spread, rest, template literals, symbols, BigInt.</p>
+</section>
+
+<section id="themes-async">
+  <h2>Async & Concurrency</h2>
+  <p>Promises, async/await, callbacks, event loop, microtasks, macrotasks, setTimeout, setInterval, requestAnimationFrame, Web Workers, SharedArrayBuffer, Atomics.</p>
+</section>
+
+<section id="themes-dom">
+  <h2>DOM & Browser</h2>
+  <p>DOM manipulation, events, event delegation, bubbling, capturing, shadow DOM, MutationObserver, IntersectionObserver, ResizeObserver, custom elements, Web Components.</p>
+</section>
+
+<section id="themes-data">
+  <h2>Data Structures</h2>
+  <p>Arrays, objects, Map, Set, WeakMap, WeakSet, typed arrays, ArrayBuffer, JSON, linked lists, trees, graphs, stacks, queues.</p>
+</section>
+
+<section id="themes-patterns">
+  <h2>Patterns & Architecture</h2>
+  <p>Design patterns, SOLID, module pattern, observer, pub/sub, factory, singleton, decorator, proxy, iterator, strategy, command, MVC, MVVM.</p>
+</section>
+
+<section id="themes-api">
+  <h2>APIs & Storage</h2>
+  <p>Fetch, XMLHttpRequest, WebSocket, WebRTC, IndexedDB, localStorage, sessionStorage, cookies, Cache API, Service Workers, Push API, Notifications.</p>
+</section>
+
+<section id="usage">
+  <h2>CLI Usage</h2>
+  <pre><code class="language-bash"># Install
+npm install -g interview-questions
+
+# Generate questions
+interview-questions --level basic --count 10
+interview-questions --level advanced --count 5 --format json</code></pre>
+</section>
+
+<section id="contributing">
+  <h2>Contributing</h2>
+  <p>Contributions welcome! Add questions to the appropriate level and theme directories. Each question should include a detailed answer with code examples.</p>
+  <p><a href="https://github.com/fix2015/javascript-questions-pro">View on GitHub</a></p>
+</section>
+</div>
+<footer class="footer">
+  <p>javascript-questions-pro — 619 JavaScript Interview Questions</p>
+  <p>Built by Vitalii Semianchuk</p>
+  <p><a href="https://github.com/fix2015/javascript-questions-pro">GitHub</a></p>
+  <p>MIT License</p>
+</footer>
+</div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/components/prism-javascript.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/components/prism-bash.min.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
